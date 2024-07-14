@@ -73,7 +73,7 @@ export function Header() {
           <a className="cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('projetos')}</a>
 
           <div>
-            <button onClick={toggleDarkMode} className="mr-7"><img src={isDarkMode ? light : dark} alt="dark/light mode" className="w-6" /></button>
+            <button onClick={toggleDarkMode} className="mr-7 hover:opacity-70"><img src={isDarkMode ? light : dark} alt="dark/light mode" className="w-6" /></button>
             <button onClick={toggleLanguage}><img src={i18n.language === 'pt' ? en : br} alt={i18n.language === 'pt' ? 'en' : 'pt'} className="w-7 hover:opacity-70"/></button>
           </div>
 
