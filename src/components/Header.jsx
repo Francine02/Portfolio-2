@@ -47,7 +47,7 @@ export function Header() {
       <div className="hidden md:flex font-semibold items-center dark:text-white">
         <a href="#sobre" className="pr-7 lg:pr-10 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('sobre')}</a>
         <a href="#projetos" className="pr-7 lg:pr-10 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('projetos')}</a>
-        <a target="_blank" rel="noopener noreferrer" href="/CV - Francine Cruz.docx" className="pr-7 lg:pr-10 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">CV</a>
+        <a rel="noopener noreferrer" href="/CV - Francine Cruz.docx" className="pr-7 lg:pr-10 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">CV</a>
 
         <button onClick={toggleDarkMode} className="mr-7 lg:mr-8 hover:opacity-70"><img src={isDarkMode ? light : dark} alt="dark/light mode" className="w-7" /></button>
 
@@ -68,9 +68,9 @@ export function Header() {
 
       {isMenuOpen && (
         <div className="absolute top-16 pb-8 left-0 w-full bg-white dark:bg-[#1d1d1d] flex flex-col items-center space-y-4 md:hidden font-semibold dark:text-white">
-          <a href="#sobre" className="cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('sobre')}</a>
+          <a href="#sobre" className="pt-5 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('sobre')}</a>
           <a href="#projetos" className="cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('projetos')}</a>
-          <a target="_blank" rel="noopener noreferrer" href="/CV - Francine Cruz.docx" className=" cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">CV</a>
+          <a target="_blank" rel="noopener noreferrer" href="/CV - Francine Cruz.docx" className="pb-5 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">CV</a>
 
           <div>
             <button onClick={toggleDarkMode} className="mr-7 hover:opacity-70"><img src={isDarkMode ? light : dark} alt="dark/light mode" className="w-7" /></button>

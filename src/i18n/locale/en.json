@@ -2,5 +2,7 @@
     "inicio": "Home",
     "sobre": "About",
     "projetos": "Projects",
-    "contato": "Contact"
+    "contato": "Contact",
+    "resumo": "Hello! I'm",
+    "resumo-titulo": "-- Full Stack Developer --"
 }
