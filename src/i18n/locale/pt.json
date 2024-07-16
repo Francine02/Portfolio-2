@@ -4,5 +4,11 @@
     "projetos": "Projetos",
     "contato": "Contato",
     "resumo": "Olá! Eu sou a",
-    "resumo-titulo": "--Desenvolvedora Full Stack--"
+    "resumo-titulo": "--Desenvolvedora Full Stack--",
+
+    "sobre-secao": "Sobre",
+    "sobre-secao-resumo": "Sou estudante de",
+    "sobre-secao-resumo2": " Engenharia de Software",
+    "sobre-secao-resumo3": " na Uninter e anteriormente cursei um semestre de Ciências Contábeis. Estou focada em me tornar uma desenvolvedora full stack, dedicando-me ao aprendizado contínuo de minhas habilidades. Utilizo",
+    "sobre-secao-resumo4": " e outras tecnologias. Minha paixão por UI/UX Design me motiva a criar experiências digitais intuitivas e eficientes usando o "
 }

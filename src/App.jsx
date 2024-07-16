@@ -1,4 +1,5 @@
 import { ButtonUp } from "./components/ButtonUp"
+import { About } from "./pages/About"
 import { Home } from "./pages/Home"
 
 function App() {
@@ -6,19 +7,7 @@ function App() {
   return (
     <div className="dark:bg-[#1d1d1d] min-h-screen">
       <Home/>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum amet numquam cum, corrupti quo non nihil, itaque, totam nisi ipsam alias aperiam accusamus obcaecati quidem incidunt vitae quod aspernatur.
-
+      <About/>
       <ButtonUp/>
     </div>
   )
