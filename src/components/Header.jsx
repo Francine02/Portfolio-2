@@ -42,9 +42,9 @@ export function Header() {
 
   return (
     <div className="flex justify-between py-4 items-center">
-      <h1 className=" text-xl md:text-2xl font-black leading-snug text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600">Francine</h1>
+      <h1 className="text-xl sm:text-2xl lg:text-3xl font-black leading-snug text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600">Francine</h1>
 
-      <div className="hidden md:flex font-semibold items-center dark:text-white">
+      <div className="hidden md:flex font-semibold items-center dark:text-white lg:text-lg">
         <a href="#sobre" className="pr-7 lg:pr-10 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('sobre')}</a>
         <a href="#projetos" className="pr-7 lg:pr-10 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('projetos')}</a>
         <a rel="noopener noreferrer" href="/CV - Francine Cruz.docx" className="pr-7 lg:pr-10 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">CV</a>
@@ -67,7 +67,7 @@ export function Header() {
       </div>
 
       {isMenuOpen && (
-        <div className="absolute top-16 pb-8 left-0 w-full bg-white dark:bg-[#1d1d1d] flex flex-col items-center space-y-4 md:hidden font-semibold dark:text-white">
+        <div className="absolute top-16 pb-8 left-0 w-full bg-white dark:bg-[#1d1d1d] flex flex-col items-center space-y-4 md:hidden font-semibold dark:text-white text-lg sm:text-xl">
           <a href="#sobre" className="pt-5 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('sobre')}</a>
           <a href="#projetos" className="cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('projetos')}</a>
           <a target="_blank" rel="noopener noreferrer" href="/CV - Francine Cruz.docx" className="pb-5 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">CV</a>
