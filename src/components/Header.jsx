@@ -54,7 +54,7 @@ export function Header() {
         <button onClick={toggleLanguage} className="relative group"><img src={i18n.language === 'pt' ? en : br} alt={i18n.language === 'pt' ? 'en' : 'pt'} className="w-7 mr-7 lg:mr-8 hover:opacity-70"/><span className="absolute bottom-full left-1/2 transform -translate-x-1/2 w-max max-w-xs bg-black text-white text-sm rounded px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">{i18n.language === 'pt' ? 'English' : 'Português'}</span></button>
 
         <a href="#contato"><button className="p-0.5 rounded-full from-indigo-400 via-pink-500 to-purple-500 bg-gradient-to-r">
-          <span className={`block px-4 py-2 font-semibold rounded-full bg-white text-black hover:bg-transparent hover:text-white transition dark:bg-[#1d1d1d] dark:text-white dark:hover:bg-transparent dark:hover:text-white`}>{t('contato')}</span>
+          <span className={`block px-4 py-2 font-semibold rounded-full bg-white text-black hover:bg-transparent hover:text-white transition dark:bg-[#272727] dark:text-white dark:hover:bg-transparent dark:hover:text-white`}>{t('contato')}</span>
         </button></a>
 
       </div>
@@ -67,7 +67,7 @@ export function Header() {
       </div>
 
       {isMenuOpen && (
-        <div className="absolute top-16 pb-8 left-0 w-full bg-white dark:bg-[#1d1d1d] flex flex-col items-center space-y-4 md:hidden font-semibold dark:text-white text-lg sm:text-xl">
+        <div className="absolute top-16 pb-8 left-0 w-full bg-white dark:bg-[#272727] flex flex-col items-center space-y-4 md:hidden font-semibold dark:text-white text-lg sm:text-xl">
           <a href="#sobre" className="pt-5 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('sobre')}</a>
           <a href="#projetos" className="cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">{t('projetos')}</a>
           <a target="_blank" rel="noopener noreferrer" href="/CV - Francine Cruz.docx" className="pb-5 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600">CV</a>
@@ -79,7 +79,7 @@ export function Header() {
           </div>
 
           <a href="#contato"><button className="p-0.5 rounded-full from-indigo-400 via-pink-500 to-purple-500 bg-gradient-to-r">
-            <span className={`block px-4 py-2 font-semibold rounded-full bg-white text-black hover:bg-transparent hover:text-white transition dark:bg-[#1d1d1d] dark:text-white dark:hover:bg-transparent dark:hover:text-white`}>{t('contato')}</span>
+            <span className={`block px-4 py-2 font-semibold rounded-full bg-white text-black hover:bg-transparent hover:text-white transition dark:bg-[#272727] dark:text-white dark:hover:bg-transparent dark:hover:text-white`}>{t('contato')}</span>
           </button></a>
         </div>
       )}
