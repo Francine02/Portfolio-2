@@ -6,7 +6,7 @@ export function Hero () {
     const {t} = useTranslation()
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 pt-20 xl:pt-4 pb-24 sm:pb-32 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 pt-20 xl:pt-4 pb-24 sm:pb-36 items-center">
             <div className='pb-12 sm:pb-16 md:pb-0 text-center'>
                 <p className='text-2xl sm:text-3xl md:text-2xl lg:text-3xl font-medium dark:text-white'>{t('resumo')}</p>
                 
