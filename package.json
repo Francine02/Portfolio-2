@@ -20,6 +20,7 @@
     "react-dom": "^18.3.1",
     "react-i18next": "^14.1.2",
     "react-icon-cloud": "^4.1.4",
+    "scrollreveal": "^4.0.9",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7"
   },
