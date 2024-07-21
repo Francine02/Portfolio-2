@@ -16,5 +16,12 @@
     "restaurante_name": "Restaurant Japa",
     "clima_name": "Climate",
     "clima_about": "This project addresses weather forecasting by searching for a city, showing: custom icons, temperature, wind, and humidity in real-time using the OpenWeather API.."
+  },
+  "contact": {
+    "name": "Enter your name...",
+    "email": "Enter your e-mail...",
+    "messagem": "Enter your message...",
+    "enviar": "SEND",
+    "ou": "Or"
   }
 }

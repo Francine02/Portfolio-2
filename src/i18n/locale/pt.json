@@ -16,5 +16,12 @@
     "restaurante_name": "Restaurante Japa",
     "clima_name": "Clima",
     "clima_about": "Este projeto aborda a previsão do tempo ao pesquisar uma cidade, mostrando: ícones personalizados, temperatura, vento e umidade em tempo real com a utilização da API OpenWeather."
+  },
+  "contact": {
+    "name": "Insira seu nome...",
+    "email": "Insira o seu e-mail...",
+    "messagem": "Insira sua mensagem...",
+    "enviar": "ENVIAR",
+    "ou": "Ou"
   }
 }

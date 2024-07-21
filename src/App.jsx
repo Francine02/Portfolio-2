@@ -6,6 +6,7 @@ import { Projects } from "./pages/Projects"
 import ScrollReveal from "scrollreveal"
 import { myProject } from "./projects/myProjects.js"
 import { useTranslation } from 'react-i18next'
+import { Contact } from "./pages/Contact"
 
 function App() {
   const { t } = useTranslation()
@@ -26,6 +27,16 @@ function App() {
     sr.reveal('.two', {
       duration: 950,
       origin: 'right',
+      distance: '100px',
+      easing: 'ease-in-out',
+      beforeReveal: (el) => {
+        el.style.visibility = 'visible'
+      }
+    })
+
+    sr.reveal('.three', {
+      duration: 950,
+      origin: 'bottom',
       distance: '100px',
       easing: 'ease-in-out',
       beforeReveal: (el) => {
@@ -57,6 +68,10 @@ function App() {
           reverse={index % 2 === 1} // Alterna entre true e false para cada projeto
         />
       ))}
+
+      <div className="three">
+        <Contact />
+      </div>
 
       <ButtonUp />
     </div>
