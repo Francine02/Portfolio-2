@@ -22,6 +22,8 @@
     "email": "Enter your e-mail...",
     "messagem": "Enter your message...",
     "enviar": "SEND",
-    "ou": "Or"
+    "ou": "Or",
+    "successMessage": "SUCCESS! Message sent.",
+    "errorMessage": "ERROR! Message not sent."
   }
 }
