@@ -5,11 +5,13 @@
   "contato": "Contato",
   "resumo": "Olá! Eu sou a",
   "resumo-titulo": "--Desenvolvedora Full Stack--",
-  "sobre-secao": "Sobre",
-  "sobre-secao-resumo": "Sou estudante de",
-  "sobre-secao-resumo2": " Engenharia de Software",
-  "sobre-secao-resumo3": " na Uninter e anteriormente cursei um semestre de Ciências Contábeis. Estou focada em me tornar uma desenvolvedora full stack, dedicando-me ao aprendizado contínuo de minhas habilidades. Utilizo",
-  "sobre-secao-resumo4": " e outras tecnologias. Minha paixão por UI/UX Design me motiva a criar experiências digitais intuitivas e eficientes usando o ",
+  "sobre/secao": {
+    "sobre": "Sobre",
+    "resumo": "Sou estudante de",
+    "resumo2": " Engenharia de Software",
+    "resumo3": " na Uninter. Estou focada em me tornar uma desenvolvedora full stack, dedicando-me ao aprendizado contínuo de minhas habilidades. Utilizo",
+    "resumo4": " e outras tecnologias. Minha paixão por UI/UX Design me motiva a criar experiências digitais intuitivas e eficientes usando o "
+  },
   "projects": {
     "project": "Projetos",
     "restaurante_about": "Projeto do Restaurante Japa, uma aplicação web para exibir e pedir pratos de comida japonesa online. Ele possui como funcionalidades: exibição de diferentes categorias de pratos de comida japonesa (combos, pratos quentes e bebidas), adição de itens ao carrinho de compras e navegação entre diferentes categorias de pratos.",

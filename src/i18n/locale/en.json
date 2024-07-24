@@ -5,11 +5,13 @@
   "contato": "Contact",
   "resumo": "Hello! I'm",
   "resumo-titulo": "--Full Stack Developer--",
-  "sobre-secao": "About",
-  "sobre-secao-resumo": "I'm a student of",
-  "sobre-secao-resumo2": " Software Engineering",
-  "sobre-secao-resumo3": " at Uninter and previously studied one semester of Accounting. I'm focused on becoming a full stack developer, dedicating myself to the continuous improvement of my skills. I use",
-  "sobre-secao-resumo4": " and other technologies. My passion for UI/UX Design drives me to create intuitive and efficient digital experiences using ",
+  "sobre/secao": {
+    "sobre": "About",
+    "resumo": "I'm a student of",
+    "resumo2": " Software Engineering",
+    "resumo3": " at Uninter. I'm focused on becoming a full stack developer, dedicating myself to the continuous improvement of my skills. I use",
+    "resumo4": " and other technologies. My passion for UI/UX Design drives me to create intuitive and efficient digital experiences using "
+  },
   "projects": {
     "project": "Projects",
     "restaurante_about": "The Japa Restaurant Project, a web application for displaying and ordering Japanese food dishes online. Its features include: displaying different categories of Japanese food dishes (combos, hot dishes, and drinks), adding items to the shopping cart, and navigating between different categories of dishes.",
