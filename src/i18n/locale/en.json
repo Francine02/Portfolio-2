@@ -17,7 +17,9 @@
     "restaurante_about": "The Japa Restaurant Project, a web application for displaying and ordering Japanese food dishes online. Its features include: displaying different categories of Japanese food dishes (combos, hot dishes, and drinks), adding items to the shopping cart, and navigating between different categories of dishes.",
     "restaurante_name": "Restaurant Japa",
     "clima_name": "Climate",
-    "clima_about": "This project addresses weather forecasting by searching for a city, showing: custom icons, temperature, wind, and humidity in real-time using the OpenWeather API.."
+    "clima_about": "This project addresses weather forecasting by searching for a city, showing: custom icons, temperature, wind, and humidity in real-time using the OpenWeather API..",
+        "control_expense-name": "Expense Control",
+    "control_expense": "Personal finance management web project with secure authentication and authorization. It allows users to easily add, edit, and delete expenses, view total expenses, track monthly spending, and identify the most frequent expense category."
   },
   "contact": {
     "name": "Enter your name...",
