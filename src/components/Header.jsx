@@ -41,7 +41,7 @@ export function Header() {
   }, [isDarkMode])
 
   return (
-    <div className="flex justify-between py-4 items-center">
+    <div className="flex justify-between py-4 2xl:py-8 items-center">
       <h1 className="text-xl sm:text-2xl lg:text-3xl font-black leading-snug text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600">Francine</h1>
 
       <div className="hidden md:flex font-semibold items-center dark:text-white lg:text-lg">

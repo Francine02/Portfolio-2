@@ -4,9 +4,9 @@ const slugs = [
   "javascript",
   "java",
   "react",
+  "typescript",
   "html5",
   "css3",
-  "nodedotjs",
   "vercel",
   "git",
   "github",
@@ -16,12 +16,13 @@ const slugs = [
   "bootstrap",
   "springboot",
   "mysql",
-
+  "postgresql",
+  "mongodb", 
 ];
 
 export function IconCloud() {
   return (
-    <div className="relative flex items-center justify-center overflow-hidden bg-background sm:px-20 lg:px-5 xl:px-20">
+    <div className="relative flex items-center justify-center overflow-hidden bg-background sm:px-20 lg:px-5 xl:px-20 2xl:px-36">
       <Icon iconSlugs={slugs} />
     </div>
   );

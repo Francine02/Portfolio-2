@@ -19,9 +19,7 @@ function App() {
       origin: 'left',
       distance: '100px',
       easing: 'ease-in-out',
-      beforeReveal: (el) => {
-        el.style.visibility = 'visible'
-      },
+      reset: true,
     })
 
     sr.reveal('.two', {
@@ -29,29 +27,17 @@ function App() {
       origin: 'right',
       distance: '100px',
       easing: 'ease-in-out',
-      beforeReveal: (el) => {
-        el.style.visibility = 'visible'
-      }
-    })
-
-    sr.reveal('.three', {
-      duration: 950,
-      origin: 'bottom',
-      distance: '100px',
-      easing: 'ease-in-out',
-      beforeReveal: (el) => {
-        el.style.visibility = 'visible'
-      }
+      reset: true,
     })
   }, [])
 
   return (
     <div className="dark:bg-[#272727] min-h-screen overflow-hidden">
-      <div className="one" style={{ visibility: 'hidden' }}>
+      <div className="one">
         <Home />
       </div>
 
-      <div className="two" style={{ visibility: 'hidden' }}>
+      <div className="two">
         <About />
       </div>
 
@@ -69,7 +55,7 @@ function App() {
         />
       ))}
 
-      <div className="three">
+      <div className="two">
         <Contact />
       </div>
 
