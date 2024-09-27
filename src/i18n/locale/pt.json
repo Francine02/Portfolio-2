@@ -7,10 +7,14 @@
   "resumo-titulo": "--Desenvolvedora Full Stack--",
   "sobre/secao": {
     "sobre": "Sobre",
-    "resumo": "Sou estudante de",
+    "resumo": "Bem-vindo(a) ao meu portfólio!",
+    "resumo1": "Sou estudante de",
     "resumo2": " Engenharia de Software",
-    "resumo3": " na Uninter. Estou focada em me tornar uma desenvolvedora full stack, dedicando-me ao aprendizado contínuo de minhas habilidades. Utilizo",
-    "resumo4": " e outras tecnologias. Minha paixão por UI/UX Design me motiva a criar experiências digitais intuitivas e eficientes usando o "
+    "resumo3": " na Uninter, desenvolvedora Full Stack e busco criar experiências digitais envolventes. Em meus projetos, utilizo tecnologias como ",
+    "tecnologias": "HTML, CSS, JavaScript, React.js, TypeScript, Tailwind CSS, Bootstrap, Java, Spring Boot e bancos de dados como PostgreSQL, MySQL e MongoDB.",
+    "resumo4": "Como profissional sou ",
+    "resumo-soft-skills": "organizada e resiliente,",
+    "resumo4-1": " familiarizada com metodologias ágeis e comprometida com a entrega de resultados, sempre aberta a novos aprendizados. "
   },
   "projects": {
     "project": "Projetos",

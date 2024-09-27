@@ -7,10 +7,14 @@
   "resumo-titulo": "--Full Stack Developer--",
   "sobre/secao": {
     "sobre": "About",
-    "resumo": "I'm a student of",
+    "resumo": "Welcome to my portfolio!",
+    "resumo1": "I am a student of",
     "resumo2": " Software Engineering",
-    "resumo3": " at Uninter. I'm focused on becoming a full stack developer, dedicating myself to the continuous improvement of my skills. I use",
-    "resumo4": " and other technologies. My passion for UI/UX Design drives me to create intuitive and efficient digital experiences using "
+    "resumo3": " at Uninter, a Full Stack developer and strive to create engaging digital experiences. In my projects, I use technologies such as",
+    "tecnologias": " HTML, CSS, JavaScript, React.js, TypeScript, Tailwind CSS, Bootstrap, Java, Spring Boot, and databases like PostgreSQL, MySQL, and MongoDB.",
+    "resumo4": "As a professional, I am",
+    "resumo-soft-skills": " organized and resilient,",
+    "resumo4-1": " familiar with agile methodologies and committed to delivering results, always open to new learnings."
   },
   "projects": {
     "project": "Projects",
@@ -18,7 +22,7 @@
     "restaurante_name": "Restaurant Japa",
     "clima_name": "Climate",
     "clima_about": "This project addresses weather forecasting by searching for a city, showing: custom icons, temperature, wind, and humidity in real-time using the OpenWeather API..",
-        "control_expense-name": "Expense Control",
+    "control_expense-name": "Expense Control",
     "control_expense": "Personal finance management web project with secure authentication and authorization. It allows users to easily add, edit, and delete expenses, view total expenses, track monthly spending, and identify the most frequent expense category."
   },
   "contact": {
