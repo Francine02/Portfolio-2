@@ -35,7 +35,7 @@ const clim = {
 const control = {
     name: "projects.control_expense-name",
     github: "https://github.com/Francine02/Controle-de-Despesas",
-    deploy: "https://controle-de-despesas-umber.vercel.app/auth/login",
+    deploy: "https://controle-de-despesas-umber.vercel.app",
     img: controlExpense,
     about: "projects.control_expense",
     tech: [
