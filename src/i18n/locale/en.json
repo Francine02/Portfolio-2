@@ -23,7 +23,8 @@
     "clima_name": "Climate",
     "clima_about": "This project addresses weather forecasting by searching for a city, showing: custom icons, temperature, wind, and humidity in real-time using the OpenWeather API..",
     "control_expense-name": "Expense Control",
-    "control_expense": "Personal finance management web project with secure authentication and authorization. It allows users to easily add, edit, and delete expenses, view total expenses, track monthly spending, and identify the most frequent expense category."
+    "control_expense": "Personal finance management web project with secure authentication and authorization. It allows users to easily add, edit, and delete expenses, view total expenses, track monthly spending, and identify the most frequent expense category.",
+    "medi": "This project was developed to help users manage their medications. You can register, edit, and delete medications, as well as set up email reminders for the correct time. Note: To ensure efficient operation, reminders are checked every 10 minutes, which helps to avoid server overload. However, there may be occasional delays or failures in sending reminders."
   },
   "contact": {
     "name": "Enter your name...",
