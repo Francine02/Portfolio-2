@@ -10,7 +10,7 @@ export function Projects({ name, github, deploy, img, about, reverse, tech }) {
       duration: 950,
       origin: 'left',
       distance: '100px',
-      reset: true,
+      reset: false,
       easing: 'ease-in-out',
     })
 
@@ -18,7 +18,7 @@ export function Projects({ name, github, deploy, img, about, reverse, tech }) {
       duration: 950,
       origin: 'right',
       distance: '100px',
-      reset: true,
+      reset: false,
       easing: 'ease-in-out',
     })
   }, [])

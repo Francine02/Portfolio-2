@@ -19,7 +19,7 @@ function App() {
       origin: 'left',
       distance: '100px',
       easing: 'ease-in-out',
-      reset: true,
+      reset: false,
     })
 
     sr.reveal('.two', {
@@ -27,7 +27,7 @@ function App() {
       origin: 'right',
       distance: '100px',
       easing: 'ease-in-out',
-      reset: true,
+      reset: false,
     })
   }, [])
 
