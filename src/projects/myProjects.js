@@ -2,6 +2,7 @@ import restaurante from './img/restaurante.png'
 import clima from './img/clima.png'
 import controlExpense from './img/controle-de-despesas.png'
 import medi from './img/medi.png'
+import converImg from './img/2.png'
 
 const rest = {
     name: "projects.restaurante_name",
@@ -56,7 +57,7 @@ const control = {
 }
 
 const medi1 = {
-    name: "Medi - Lembrete de medicamentos",
+    name: "projects.medi_name",
     github: "https://github.com/Francine02/Medi",
     deploy: "https://medi-five-fawn.vercel.app/",
     img: medi,
@@ -76,9 +77,26 @@ const medi1 = {
     ]
 }
 
+const conver = {
+    name: "projects.conver_name",
+    github: "https://github.com/Francine02/Conver",
+    deploy: "https://conver-taupe.vercel.app",
+    img: converImg,
+    about: "projects.conver",
+    tech: [
+        'https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000',
+        'https://img.icons8.com/?size=100&id=dJjTWMogzFzg&format=png&color=000000',
+        'https://img.icons8.com/?size=100&id=20909&format=png&color=000000',
+        'https://img.icons8.com/?size=100&id=21278&format=png&color=000000',
+        'https://img.icons8.com/?size=100&id=108784&format=png&color=000000',
+        'https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000',
+    ]
+}
+
 export const myProject = [
+    medi1,
+    control,
+    conver,
     rest,
     clim,
-    control,
-    medi1
 ]

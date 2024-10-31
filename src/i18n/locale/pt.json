@@ -24,7 +24,10 @@
     "clima_about": "Este projeto aborda a previsão do tempo ao pesquisar uma cidade, mostrando: ícones personalizados, temperatura, vento e umidade em tempo real com a utilização da API OpenWeather.",
     "control_expense-name": "Controle de Despesas",
     "control_expense": "Projeto web de gerenciamento financeiro pessoal que oferece autenticação e autorização seguras. Ele permite que os usuários adicionem, editem e excluam despesas facilmente, visualizem despesas totais, rastreiem gastos mensais e identifiquem a categoria de despesas mais frequente.",
-    "medi": "Este projeto foi desenvolvido para auxiliar usuários a gerenciar seus medicamentos. É possível cadastrar, editar e excluir medicamentos, além de configurar lembretes por e-mail para o horário correto. Observação: Para garantir um funcionamento eficiente, a verificação dos lembretes é realizada a cada 10 minutos, o que ajuda a evitar sobrecarga no servidor. No entanto, pode haver pequenos atrasos ou falhas ocasionais no envio dos lembretes."
+    "medi_name": "Medi - Lembrete de medicamentos",
+    "medi": "Este projeto foi desenvolvido para auxiliar usuários a gerenciar seus medicamentos. É possível cadastrar, editar e excluir medicamentos, além de configurar lembretes por e-mail para o horário correto. Observação: Para garantir um funcionamento eficiente, a verificação dos lembretes é realizada a cada 10 minutos, o que ajuda a evitar sobrecarga no servidor. No entanto, pode haver pequenos atrasos ou falhas ocasionais no envio dos lembretes.",
+    "conver_name": "Conver: Transforme Seus Documentos em Segundos!",
+    "conver": "O Conver é um site prático e rápido para converter documentos em vários formatos, desenvolvido em colaboração com George Victor. Nele, implementei uma interface responsiva com modos claro e escuro, suporte a múltiplos formatos, upload simplificado e feedback de carregamento. O backend, desenvolvido por George, processa as conversões e retorna o arquivo pronto para download."
   },
   "contact": {
     "name": "Insira seu nome...",
