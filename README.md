@@ -15,7 +15,7 @@ Aqui você encontrará uma visão geral dos projetos que desenvolvi e das habili
 
 ## 🖼️  Visualização:
 <div align="center">
-  <img src="./public/print-pc.png" width="800" /> <img src="./public/print-mobile.png" width="200" /> 
+  <img src="./public/print-pc.png" width="600" /> <img src="./public/print-mobile.png" width="200" /> 
 </div>
 
 ## 🚀  Tecnologias 
