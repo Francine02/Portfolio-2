@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import ShineBorder from "../@/components/magicui/shine-border.jsx" //Efeito pego no Magic UI
+import ShineBorder from '../components/magicui/shine-border.jsx'
 import { IconCloud } from '../components/IconCloud.jsx'
 
 export function About() {

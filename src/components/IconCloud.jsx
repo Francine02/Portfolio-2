@@ -1,4 +1,4 @@
-import Icon from "../@/components/magicui/icon-cloud.jsx";
+import Icon from "./magicui/icon-cloud.jsx";
 
 const slugs = [
   "javascript",
