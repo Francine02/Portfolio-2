@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import avatar from '../../assets/avatar.jpg'
+import avatar from '../../assets/avatar.png'
 import TypingAnimation from '../magicui/typing-animation'
 
 export function Hero () {
