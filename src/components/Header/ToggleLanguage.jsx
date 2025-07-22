@@ -12,7 +12,7 @@ export function ToggleLanguage() {
     return (
         <button
             onClick={toggleLanguage}
-            className="relative group">
+            className="relative group cursor-pointer">
             <img src={i18n.language === 'pt' ? en : br}
                 alt={i18n.language === 'pt' ? 'en' : 'pt'}
                 className="w-6 md:w-7 md:mr-7 lg:mr-8 hover:opacity-70" />

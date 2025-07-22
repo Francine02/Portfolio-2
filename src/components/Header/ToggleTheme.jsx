@@ -26,7 +26,7 @@ export function ToggleTheme() {
     return (
         <button
             onClick={toggleDarkMode}
-            className="mr-7 lg:mr-8 hover:opacity-70 ">
+            className="mr-7 lg:mr-8 hover:opacity-70 cursor-pointer">
             <img src={isDarkMode ? light : dark}
                 alt="dark/light mode"
                 className="w-6 md:w-7" />
