@@ -1,4 +1,4 @@
-import up from '../assets/buttondark.png'
+import up from '../../assets/buttondark.png'
 
 export function ButtonUp () {
     const toggleScrollUp = () => { //Função para quando o botão for clicado a página volte para cima
