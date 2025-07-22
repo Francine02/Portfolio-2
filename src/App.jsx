@@ -1,5 +1,4 @@
 import { useEffect } from "react"
-import { ButtonUp } from "./components/ButtonUp"
 import { About } from "./pages/About"
 import { Home } from "./pages/Home"
 import { Projects } from "./pages/Projects"
@@ -7,6 +6,7 @@ import ScrollReveal from "scrollreveal"
 import { myProject } from "./projects/myProjects.js"
 import { useTranslation } from 'react-i18next'
 import { Contact } from "./pages/Contact"
+import { ButtonUp } from "./components/ButtonUp/ButtonUp"
 
 function App() {
   const { t } = useTranslation()
