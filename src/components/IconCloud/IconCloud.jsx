@@ -1,23 +1,23 @@
-import Icon from "../magicui/icon-cloud.jsx";
+import Icon from '../magicui/icon-cloud.jsx';
 
 const slugs = [
-  "javascript",
-  "java",
-  "react",
-  "typescript",
-  "html5",
-  "css3",
-  "vercel",
-  "git",
-  "github",
-  "visualstudiocode",
-  "figma",
-  "tailwindcss",
-  "bootstrap",
-  "springboot",
-  "mysql",
-  "postgresql",
-  "mongodb", 
+  'javascript',
+  'java',
+  'react',
+  'typescript',
+  'html5',
+  'css3',
+  'vercel',
+  'git',
+  'github',
+  'visualstudiocode',
+  'figma',
+  'tailwindcss',
+  'bootstrap',
+  'springboot',
+  'mysql',
+  'postgresql',
+  'mongodb',
 ];
 
 export function IconCloud() {

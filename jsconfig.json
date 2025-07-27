@@ -1,16 +1,16 @@
 {
-    "compilerOptions": {
-      "target": "es6",
-      "jsx": "react",
-      "baseUrl": "./src",
-      "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["src/assets/*"],
+      "@pages/*": ["src/pages/*"],
+      "@i18n/*": ["src/i18n/*"],
+      "@projects/*": ["src/projects/*"]
     }
-    },
-    "include": [
-      "src"
-    ]
-  }
-  
+  },
+  "include": ["src"]
+}
