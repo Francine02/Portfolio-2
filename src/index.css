@@ -6,3 +6,19 @@
   scrollbar-width: thin;
   scrollbar-color: #db2777 #f0e9dd;
 }
+
+@theme {
+  --text-link-xs: 0.8rem;
+  --text-link-md: 1rem;
+
+  --text-subtitle: 1.8rem;
+  --text-title-hero: 4rem;
+
+  --font-title: 'Abril Fatface', serif;
+  --font-text: 'Lato', sans-serif;
+
+  --font-text-color: #292929;
+
+  --color-pink: #ec4899;
+  --color-purple: #8b5cf6;
+}
