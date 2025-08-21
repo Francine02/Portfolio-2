@@ -1,10 +1,16 @@
 {
-  "inicio": "Home",
-  "sobre": "About",
-  "projetos": "Projects",
-  "contato": "Contact",
-  "resumo": "Hello! I'm",
-  "resumo-titulo": "--Full Stack Developer--",
+  "header": {
+    "inicio": "Home",
+    "sobre": "About",
+    "projetos": "Projects",
+    "contato": "Contact",
+    "experiencias": "Experiences"
+  },
+  "hero": {
+    "saudacao": "Welcome to my portfolio!",
+    "apresentacao": "I'm",
+    "titulo": "Full Stack Developer"
+  },
   "sobre/secao": {
     "sobre": "About",
     "resumo": "Welcome to my portfolio!",
