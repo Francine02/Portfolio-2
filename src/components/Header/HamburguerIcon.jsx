@@ -1,8 +1,14 @@
-export function IconHamburguer({ open, isMenuOpen }) {
+export function HamburguerIcon({ open, isMenuOpen }) {
   return (
-    <button onClick={open} className="focus:outline-none md:hidden">
+    <button
+      onClick={open}
+      className="focus:outline-none md:hidden"
+      aria-expanded={isMenuOpen}
+      aria-controls="mobile-menu"
+      aria-label="Abrir menu de navegação"
+    >
       <svg
-        className="w-6 h-6 text-black dark:text-white"
+        className="w-6 h-6 text-black dark:text-white cursor-pointer"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
