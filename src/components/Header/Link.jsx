@@ -4,7 +4,14 @@ export function Link({ link, text, rel, target }) {
       href={link}
       rel={rel}
       target={target}
-      className="text-base md:text-lg md:pr-7 lg:pr-10 cursor-pointer hover:leading-snug hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-600 hover:to-purple-600"
+      className="
+        relative
+        dark:text-white
+        cursor-pointer font-title text-text-color
+        before:absolute before:left-0 before:bottom-0 before:w-full before:h-0.5 before:rounded-full
+        before:scale-x-0 before:origin-left before:transition-transform before:duration-200
+        before:bg-gradient-to-r before:from-pink-600 before:to-purple-600
+        hover:before:scale-x-100"
     >
       {text}
     </a>
