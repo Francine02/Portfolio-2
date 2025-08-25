@@ -2,6 +2,7 @@ export const HEADER_LINKS = (language) => [
   { textKey: 'header.sobre', link: '#sobre' },
   { textKey: 'header.projetos', link: '#projetos' },
   { textKey: 'header.experiencias', link: '#experiencias' },
+  { textKey: 'header.contato', link: '#contato' },
   {
     textKey: null,
     text: 'CV',
@@ -12,5 +13,4 @@ export const HEADER_LINKS = (language) => [
     target: '_blank',
     rel: 'noopener noreferrer',
   },
-  { textKey: 'header.contato', link: '#contato' },
 ];
