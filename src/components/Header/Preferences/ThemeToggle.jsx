@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import dark from '../../assets/dark.png';
-import light from '../../assets/light.png';
+import dark from '@assets/dark.png';
+import light from '@assets/light.png';
+import { useEffect, useState } from 'react';
 
-export function ToggleTheme() {
+export function ThemeToggle() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
     return localStorage.getItem('darkMode') === 'true';
   });
@@ -26,7 +26,8 @@ export function ToggleTheme() {
   return (
     <button
       onClick={toggleDarkMode}
-      className="mr-7 lg:mr-8 hover:opacity-70 cursor-pointer"
+      className=" hover:opacity-70 cursor-pointer"
+      aria-label="Mudar tema"
     >
       <img
         src={isDarkMode ? light : dark}
