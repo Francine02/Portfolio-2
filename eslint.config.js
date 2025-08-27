@@ -1,3 +1,4 @@
+import babelParser from '@babel/eslint-parser';
 import js from '@eslint/js';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
@@ -23,9 +24,16 @@ export default [
         setInterval: 'readonly',
         clearInterval: 'readonly',
       },
+      parser: babelParser,
       parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module',
         ecmaFeatures: {
           jsx: true,
+        },
+        requireConfigFile: false,
+        babelOptions: {
+          presets: ['@babel/preset-react'],
         },
       },
     },
