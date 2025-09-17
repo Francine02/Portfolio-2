@@ -1,11 +1,12 @@
+import { AnimatedThemeToggler } from '@components/Magic-UI/AnimatedThemeToggler';
+
 import { LanguageToggle } from './LanguageToggle';
-import { ThemeToggle } from './ThemeToggle';
 
 export function Preferences() {
   return (
     <div className="gap-8 md:gap-6 flex">
       <LanguageToggle />
-      <ThemeToggle />
+      <AnimatedThemeToggler className="cursor-pointer hover:opacity-70"/>
     </div>
   );
 }
