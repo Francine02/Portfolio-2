@@ -9,6 +9,10 @@
   scroll-behavior: smooth;
 }
 
+#avatar {
+  filter: drop-shadow(5px 3px 6px #545454);
+}
+
 @theme {
   --font-title: 'Abril Fatface', serif;
   --font-text: 'Lato', sans-serif;
@@ -19,8 +23,8 @@
   --color-pink: #ec4899;
   --color-purple: #8b5cf6;
 
-  --text-subtitle: clamp(0.9rem, 1.5vw, 1.2rem);
-  --text-hero-title: clamp(2rem, 5vw, 4rem);
+  --text-subtitle: clamp(2.4svh, 2vw, 1.6rem);
+  --text-hero-title: clamp(4.5svh, 5vw, 4rem);
   --text-body: clamp(1rem, 1.8vw, 1.3rem);
   --text-caption: clamp(0.75rem, 1vw, 1rem);
 
@@ -53,4 +57,36 @@
 ::view-transition-new(root) {
   animation: none;
   mix-blend-mode: normal;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+@theme inline {
+  --animate-aurora: aurora 8s ease-in-out infinite alternate;
+  @keyframes aurora {
+    0% {
+      background-position: 0% 50%;
+      transform: rotate(-5deg) scale(0.9);
+    }
+    25% {
+      background-position: 50% 100%;
+      transform: rotate(5deg) scale(1.1);
+    }
+    50% {
+      background-position: 100% 50%;
+      transform: rotate(-3deg) scale(0.95);
+    }
+    75% {
+      background-position: 50% 0%;
+      transform: rotate(3deg) scale(1.05);
+    }
+    100% {
+      background-position: 0% 50%;
+      transform: rotate(-5deg) scale(0.9);
+    }
+  }
 }
