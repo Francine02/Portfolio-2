@@ -1,4 +1,5 @@
 import logo from '@assets/logo.png';
+import { ScrollProgress } from '@components/Magic-UI/ScrollProgress';
 import { useState } from 'react';
 
 import { ContentLinks } from './ContentLinks';
@@ -16,7 +17,7 @@ export function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 z-50 w-full flex justify-between py-4 2xl:py-8 items-center px-4 sm:px-8 md:px-12 lg:px-20 xl:px-56 bg-white dark:bg-[#272727] shadow-xs">
+    <header className="fixed top-0 left-0 z-50 w-full flex justify-between py-4 items-center px-7 sm:px-12 lg:px-24 2xl:px-96 bg-white dark:bg-[#272727]">
       <img
         src={logo}
         alt="Logo do portfólio"
@@ -36,6 +37,7 @@ export function Header() {
         isMenuOpen={isMenuOpen}
         open={() => setIsMenuOpen(!isMenuOpen)}
       />
+      <ScrollProgress className="top-14" />
 
       {isMenuOpen && (
         <nav
