@@ -1,8 +1,8 @@
-import restaurante from './img/restaurante.png';
-import clima from './img/clima.png';
-import controlExpense from './img/controle-de-despesas.png';
-import medi from './img/medi.png';
-import converImg from './img/2.png';
+import converImg from '@projects/img/2.png';
+import clima from '@projects/img/clima.png';
+import controlExpense from '@projects/img/controle-de-despesas.png';
+import medi from '@projects/img/medi.png';
+import restaurante from '@projects/img/restaurante.png';
 
 const rest = {
   name: 'projects.restaurante_name',
