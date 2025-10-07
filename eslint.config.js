@@ -46,6 +46,7 @@ export default [
             ['@assets', './src/assets'],
             ['@i18n', './src/i18n'],
             ['@projects', './src/projects'],
+            ['@lib', './src/lib'],
           ],
           extensions: ['.js', '.jsx'],
         },
@@ -61,6 +62,7 @@ export default [
       'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
       'simple-import-sort/imports': 'warn',
       'simple-import-sort/exports': 'warn',
+      'react/jsx-uses-vars': 'warn',
     },
   },
 ];
