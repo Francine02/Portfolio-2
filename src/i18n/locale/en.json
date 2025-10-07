@@ -7,9 +7,8 @@
     "experiencias": "Experiences"
   },
   "hero": {
-    "saudacao": "Welcome to my portfolio!",
-    "apresentacao": "I'm",
-    "titulo": "Full Stack Developer"
+    "apresentacao": "Hello, I'm ",
+    "titulo": "Full Stack "
   },
   "sobre/secao": {
     "sobre": "About",
