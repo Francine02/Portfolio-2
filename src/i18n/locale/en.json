@@ -10,16 +10,10 @@
     "apresentacao": "Hello, I'm ",
     "titulo": "Full Stack "
   },
-  "sobre/secao": {
-    "sobre": "About",
-    "resumo": "Welcome to my portfolio!",
-    "resumo1": "I am a student of",
-    "resumo2": " Software Engineering",
-    "resumo3": " at Uninter, a Full Stack developer and strive to create engaging digital experiences. In my projects, I use technologies such as",
-    "tecnologias": " HTML, CSS, JavaScript, React.js, TypeScript, Tailwind CSS, Bootstrap, Java, Spring Boot, and databases like PostgreSQL, MySQL, and MongoDB.",
-    "resumo4": "As a professional, I am",
-    "resumo-soft-skills": " organized and resilient,",
-    "resumo4-1": " familiar with agile methodologies and committed to delivering results, always open to new learnings."
+  "sobre": {
+    "titulo": "About",
+    "resumo": "I'm Francine, a <strong>Software Engineering student</strong> and a <strong>Full Stack developer</strong> in training. I have hands-on experience with <strong>personal projects</strong>, <strong>volunteer projects</strong>, and <strong>freelance projects</strong> — creating <strong>responsive interfaces</strong>, developing and integrating <strong>APIs</strong>, and implementing systems such as <strong>Stripe</strong>.",
+    "resumo1": "I have worked in <strong>agile teams</strong> focused on <strong>accessibility</strong>, <strong>dynamic forms</strong>, and <strong>real-impact solutions</strong>. I’m seeking my <strong>first opportunity as a developer</strong> to keep <strong>growing</strong>, <strong>delivering value</strong>, and <strong>learning from new challenges</strong>."
   },
   "projects": {
     "project": "Projects",
