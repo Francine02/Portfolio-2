@@ -10,7 +10,7 @@
 }
 
 #avatar {
-  filter: drop-shadow(5px 3px 6px #545454);
+  filter: drop-shadow(5px 0px 6px #545454);
 }
 
 @theme {
@@ -20,13 +20,15 @@
   --color-text-light: #292929;
   --color-text-dark: #f3f2f2;
 
+  --color-section-dark: #1b1b1b;
+
   --color-pink: #ec4899;
   --color-purple: #8b5cf6;
 
   --text-subtitle: clamp(2.4svh, 2vw, 1.6rem);
   --text-hero-title: clamp(4.5svh, 5vw, 4rem);
+
   --text-body: clamp(1rem, 1.8vw, 1.3rem);
-  --text-caption: clamp(0.75rem, 1vw, 1rem);
 
   --animate-aurora: aurora 8s ease-in-out infinite alternate;
   @keyframes aurora {
@@ -88,5 +90,11 @@
       background-position: 0% 50%;
       transform: rotate(-5deg) scale(0.9);
     }
+  }
+}
+
+@layer components {
+  .section-layout {
+    @apply bg-gray-100 dark:bg-section-dark px-7 sm:px-14 lg:px-28 2xl:px-96 py-11 rounded-[2rem] md:rounded-[4rem];
   }
 }
