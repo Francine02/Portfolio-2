@@ -13,7 +13,8 @@
   "sobre": {
     "titulo": "Sobre",
     "resumo": "Sou Francine, estudante de <strong>Engenharia de Software</strong> e <strong>desenvolvedora Full Stack</strong> em formação. Tenho experiência prática em <strong>projetos pessoais</strong>, <strong>voluntários</strong> e <strong>freelas</strong>, criando <strong>interfaces responsivas</strong>, desenvolvendo e integrando <strong>APIs</strong>, e implementando sistemas como a <strong>Stripe</strong>.",
-    "resumo1": "Já atuei em <strong>times ágeis</strong> com foco em <strong>acessibilidade</strong>, <strong>formulários dinâmicos</strong> e <strong>soluções com impacto real</strong>. Busco minha <strong>primeira oportunidade como desenvolvedora</strong> para continuar <strong>evoluindo</strong>, <strong>entregando valor</strong> e <strong>aprendendo com novos desafios</strong>."
+    "resumo1": "Já atuei em <strong>times ágeis</strong> com foco em <strong>acessibilidade</strong>, <strong>formulários dinâmicos</strong> e <strong>soluções com impacto real</strong>. Busco minha <strong>primeira oportunidade como desenvolvedora</strong> para continuar <strong>evoluindo</strong>, <strong>entregando valor</strong> e <strong>aprendendo com novos desafios</strong>.",
+    "ferramentas": "Ferramentas"
   },
   "projects": {
     "project": "Projetos",
