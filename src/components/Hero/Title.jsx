@@ -12,12 +12,10 @@ export function Title() {
         <AuroraText>Francine Cruz.</AuroraText>
       </h1>
 
-      <div className="flex items-center gap-1.5">
-        <h3 className="text-subtitle font-semibold">{t('hero.titulo')}</h3>
-        <WordRotate
-          className="text-subtitle font-semibold"
-          words={['Full Stack', 'Front End', 'Back End']}
-        />
+      <div className="flex items-center gap-1.5 text-subtitle font-semibold">
+        <h3>—{t('hero.titulo')}</h3>
+        <WordRotate words={['Full Stack', 'Front End', 'Back End']} />
+        <h3>—</h3>
       </div>
     </div>
   );
