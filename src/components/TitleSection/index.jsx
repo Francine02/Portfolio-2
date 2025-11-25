@@ -1,26 +1,9 @@
-import flowerPink from '@assets/flower-pink.png';
-import flowerPurple from '@assets/flower-purple.png';
+import { TitleWithFlowers } from './TitleWithFlowers';
 
 export function TitleSection({ title }) {
   return (
-    <div className="w-full bg-purple-100 py-10 pl-7 sm:pl-14 lg:pl-28 2xl:pl-96 border border-purple-200 dark:border-black absolute z-0">
-      <div className="relative flex w-fit">
-        <img
-          src={flowerPink}
-          alt="Flor rosa"
-          className="absolute left-0 -translate-x-[1.2rem] translate-y-2 lg:translate-y-4 size-10 opacity-90"
-        />
-
-        <img
-          src={flowerPurple}
-          alt="Flor roxa"
-          className="absolute right-0 translate-x-[1.2rem] -translate-y-1 lg:translate-y-[-0.1rem] size-10 opacity-90"
-        />
-
-        <h2 className="relative z-10 text-3xl sm:text-4xl lg:text-5xl font-title font-black text-text-light select-none">
-          {title}
-        </h2>
-      </div>
+    <div className="w-full bg-purple-100 py-10 border border-purple-200 dark:border-black absolute z-0">
+      <TitleWithFlowers title={title} />
     </div>
   );
 }
