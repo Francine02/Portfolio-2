@@ -24,7 +24,7 @@ export const TECHNOLOGIES_LIST = [
       { name: 'React', icon: SiReact, color: '#61DAFB' },
       { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
       { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
-      { name: 'Next.js', icon: SiNextdotjs, color: '#3d3d3d' },
+      { name: 'Next.js', icon: SiNextdotjs, color: '#606060' },
       { name: 'HTML', icon: SiHtml5, color: '#E34F26' },
       { name: 'CSS', icon: SiCss3, color: '#1572B6' },
       { name: 'Bootstrap', icon: SiBootstrap, color: '#7952B3' },
@@ -43,7 +43,7 @@ export const TECHNOLOGIES_LIST = [
     category: 'Ferramentas',
     technologies: [
       { name: 'Git', icon: SiGit, color: '#F05032' },
-      { name: 'GitHub', icon: SiGithub, color: '#3d3d3d' },
+      { name: 'GitHub', icon: SiGithub, color: '#606060' },
       { name: 'Figma', icon: SiFigma, color: '#F24E1E' },
       { name: 'Insomnia', icon: SiInsomnia, color: '#4000BF' },
       { name: 'Swagger', icon: SiSwagger, color: '#85EA2D' },
