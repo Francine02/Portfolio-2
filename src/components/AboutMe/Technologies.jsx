@@ -5,7 +5,7 @@ export function Technologies() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <div className="grid sm:grid-cols-3 gap-4 xl:gap-10 mt-5 xl:mt-20">
       {TECHNOLOGIES_LIST.map(({ category, technologies }) => (
         <div key={category}>
           <h3 className="font-bold text-lg pb-2">
@@ -26,6 +26,6 @@ export function Technologies() {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 }
