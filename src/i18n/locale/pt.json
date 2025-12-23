@@ -16,18 +16,12 @@
     "resumo1": "Já atuei em <strong>times ágeis</strong> com foco em <strong>acessibilidade</strong>, <strong>formulários dinâmicos</strong> e <strong>soluções com impacto real</strong>. Busco minha <strong>primeira oportunidade como desenvolvedora</strong> para continuar <strong>evoluindo</strong>, <strong>entregando valor</strong> e <strong>aprendendo com novos desafios</strong>.",
     "ferramentas": "Ferramentas"
   },
-  "projects": {
-    "project": "Projetos",
-    "restaurante_about": "Projeto do Restaurante Japa, uma aplicação web para exibir e pedir pratos de comida japonesa online. Ele possui como funcionalidades: exibição de diferentes categorias de pratos de comida japonesa (combos, pratos quentes e bebidas), adição de itens ao carrinho de compras e navegação entre diferentes categorias de pratos.",
-    "restaurante_name": "Restaurante Japa",
-    "clima_name": "Clima",
-    "clima_about": "Este projeto aborda a previsão do tempo ao pesquisar uma cidade, mostrando: ícones personalizados, temperatura, vento e umidade em tempo real com a utilização da API OpenWeather.",
-    "control_expense-name": "Controle de Despesas",
-    "control_expense": "Projeto web de gerenciamento financeiro pessoal que oferece autenticação e autorização seguras. Ele permite que os usuários adicionem, editem e excluam despesas facilmente, visualizem despesas totais, rastreiem gastos mensais e identifiquem a categoria de despesas mais frequente.",
-    "medi_name": "Medi - Lembrete de medicamentos",
-    "medi": "Este projeto foi desenvolvido para auxiliar usuários a gerenciar seus medicamentos. É possível cadastrar, editar e excluir medicamentos, além de configurar lembretes por e-mail para o horário correto. Observação: Para garantir um funcionamento eficiente, a verificação dos lembretes é realizada a cada 10 minutos, o que ajuda a evitar sobrecarga no servidor. No entanto, pode haver pequenos atrasos ou falhas ocasionais no envio dos lembretes.",
-    "conver_name": "Conver: Transforme Seus Documentos em Segundos!",
-    "conver": "O Conver é um site prático e rápido para converter documentos em vários formatos, desenvolvido em colaboração com George Victor. Nele, implementei uma interface responsiva com modos claro e escuro, suporte a múltiplos formatos, upload simplificado e feedback de carregamento. O backend, desenvolvido por George, processa as conversões e retorna o arquivo pronto para download."
+  "projetos": {
+    "titulo": "Projetos",
+    "opcoes": {
+      "todos": "Todos",
+      "voluntarios": "Voluntários"
+    }
   },
   "contact": {
     "name": "Insira seu nome...",

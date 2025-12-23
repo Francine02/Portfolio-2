@@ -16,18 +16,12 @@
     "resumo1": "I have worked in <strong>agile teams</strong> focused on <strong>accessibility</strong>, <strong>dynamic forms</strong>, and <strong>real-impact solutions</strong>. I’m seeking my <strong>first opportunity as a developer</strong> to keep <strong>growing</strong>, <strong>delivering value</strong>, and <strong>learning from new challenges</strong>.",
     "ferramentas": "Tools"
   },
-  "projects": {
-    "project": "Projects",
-    "restaurante_about": "The Japa Restaurant Project, a web application for displaying and ordering Japanese food dishes online. Its features include: displaying different categories of Japanese food dishes (combos, hot dishes, and drinks), adding items to the shopping cart, and navigating between different categories of dishes.",
-    "restaurante_name": "Restaurant Japa",
-    "clima_name": "Climate",
-    "clima_about": "This project addresses weather forecasting by searching for a city, showing: custom icons, temperature, wind, and humidity in real-time using the OpenWeather API..",
-    "control_expense-name": "Expense Control",
-    "control_expense": "Personal finance management web project with secure authentication and authorization. It allows users to easily add, edit, and delete expenses, view total expenses, track monthly spending, and identify the most frequent expense category.",
-    "medi_name": "Medi - Medication Reminder",
-    "medi": "This project was developed to help users manage their medications. You can register, edit, and delete medications, as well as set up email reminders for the correct time. Note: To ensure efficient operation, reminders are checked every 10 minutes, which helps to avoid server overload. However, there may be occasional delays or failures in sending reminders.",
-    "conver_name": "Conver: Transform Your Documents in Seconds!",
-    "conver": "Conver is a fast and convenient website for converting documents across various formats, developed in collaboration with George Victor. I implemented a responsive interface with light/dark modes, multi-format support, simplified upload, and loading feedback. George backend processes conversions and returns the files ready for download."
+  "projetos": {
+    "titulo": "Projects",
+    "opcoes": {
+      "todos": "All",
+      "voluntarios": "Volunteers"
+    }
   },
   "contact": {
     "name": "Enter your name...",
