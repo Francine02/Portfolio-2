@@ -1,7 +1,7 @@
 {
   "name": "portfolio-2",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,8 +12,11 @@
     "lint:fix": "eslint \"src/**/*.{js,jsx}\" --fix"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@icons-pack/react-simple-icons": "^13.8.0",
     "@tailwindcss/vite": "^4.1.11",
     "clsx": "^2.1.1",
+    "gsap": "^3.13.0",
     "i18next": "^25.1.3",
     "lucide-react": "^0.544.0",
     "motion": "^12.23.22",
