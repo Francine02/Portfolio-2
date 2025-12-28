@@ -20,7 +20,7 @@
   --color-text-light: #292929;
   --color-text-dark: #f3f2f2;
 
-  --color-section-dark: #1b1b1b;
+  --color-dark: #353535;
 
   --color-pink: #ec4899;
   --color-purple: #8b5cf6;
@@ -94,7 +94,19 @@
 }
 
 @layer components {
+  .padding {
+    @apply px-7 sm:px-14 lg:px-28 2xl:px-96;
+  }
   .section-layout {
-    @apply bg-gray-100 dark:bg-section-dark px-7 sm:px-14 lg:px-28 2xl:px-96 py-11 rounded-[2rem] md:rounded-[4rem];
+    @apply border border-purple-200 px-5 2xl:px-14 mx-5 sm:mx-12 lg:mx-26 2xl:mx-94 rounded-2xl z-1 relative mt-24 bg-white dark:bg-dark;
+  }
+  .button-base {
+    @apply bg-gradient-to-r from-pink to-purple w-fit text-white px-3 py-0.5 rounded-lg font-semibold hover:brightness-90 cursor-pointer;
+  }
+  .button-outlined {
+    @apply px-3 py-0.5 cursor-pointer rounded-lg font-semibold border-2 border-gray-200 text-gray-600 dark:text-gray-300 dark:border-neutral-600 hover:brightness-90;
+  }
+  .line-hero {
+    @apply absolute border border-purple-200 dark:opacity-30;
   }
 }
