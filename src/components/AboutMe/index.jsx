@@ -8,12 +8,9 @@ export function AboutMe() {
   const { t } = useTranslation();
   return (
     <>
-      <TitleSection title={t('sobre.titulo')} />
+      <TitleSection title={t('sobre.titulo')} id="sobre" />
 
-      <section
-        className="section-layout text-text-light dark:text-text-dark"
-        id="sobre"
-      >
+      <section className="section-layout text-text-light dark:text-text-dark">
         <div className=" md:flex md:justify-around md:flex-row flex flex-col md:gap-5 items-center md:items-start">
           <img
             src={avatar}
