@@ -17,7 +17,7 @@ export function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 z-50 w-full flex justify-between py-4 items-center px-7 sm:px-12 lg:px-24 2xl:px-96 bg-white dark:bg-[#272727]">
+    <header className="fixed top-0 left-0 z-50 w-full flex justify-between py-4 items-center px-7 sm:px-12 lg:px-24 2xl:px-96 bg-white dark:bg-dark">
       <img
         src={logo}
         alt="Logo do portfólio"
@@ -42,7 +42,7 @@ export function Header() {
       {isMenuOpen && (
         <nav
           id="mobile-menu"
-          className="absolute top-16 pb-8 left-0 w-full bg-white dark:bg-[#272727] z-50 flex flex-col items-center space-y-4 md:hidden rounded-b-2xl shadow-xs"
+          className="absolute top-14 pb-8 left-0 w-full bg-white dark:bg-[#272727] z-50 flex flex-col items-center space-y-4 md:hidden rounded-b-2xl shadow-xs"
         >
           <ContentLinks />
           <Preferences />

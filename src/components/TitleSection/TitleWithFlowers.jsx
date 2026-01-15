@@ -4,7 +4,7 @@ import { cn } from '@lib/utils';
 
 export function TitleWithFlowers({ title, className }) {
   return (
-    <div className="pl-7 sm:pl-14 lg:pl-28 2xl:pl-96">
+    <div className="pl-7 sm:pl-14 lg:pl-28 container">
       <div className="relative flex w-fit ">
         <img
           src={flowerPink}
