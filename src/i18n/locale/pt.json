@@ -21,6 +21,16 @@
     "opcoes": {
       "todos": "Todos",
       "voluntarios": "Voluntários"
+    },
+    "sobre": {
+      "receitoteca": "API para gerenciamento de receitas, com cadastro, edição, exclusão e geração de PDFs.",
+      "kando": "API de quadros colaborativos para criação de boards, cartões e compartilhamento via links.",
+      "conver": "Aplicação web para conversão rápida de arquivos em diversos formatos, com interface responsiva.",
+      "quicklist": "Aplicação simples para gerenciamento de lista de compras semanal, com adição, conclusão e remoção de itens.",
+      "lectify": "Plataforma que gera resumos ou testes a partir de URLs do YouTube ou arquivos enviados.",
+      "lectify2": "Semelhante a versão 1 do Lectify, porém com funcionalidades novas como login, cadastro e etc.",
+      "controleDespesas": "Sistema para controle de despesas, com resumo mensal e análise por categorias.",
+      "medi": "Aplicação para gerenciamento de medicamentos, com lembretes automáticos por e-mail."
     }
   },
   "contact": {

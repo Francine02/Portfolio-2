@@ -21,6 +21,16 @@
     "opcoes": {
       "todos": "All",
       "voluntarios": "Volunteers"
+    },
+    "sobre": {
+      "receitoteca": "API for managing recipes, allowing creation, editing, deletion, and PDF generation.",
+      "kando": "Collaborative board management API for creating boards, managing cards, and sharing via links.",
+      "conver": "Web application for fast file conversion across multiple formats with a responsive interface.",
+      "quicklist": "Simple application for managing a weekly shopping list with item creation, completion, and removal.",
+      "lectify": "Platform that generates summaries or quizzes from YouTube URLs or uploaded files.",
+      "lectify2": "Similar to version 1 of Lectify, but with new features such as login, registration and etc.",
+      "controleDespesas": "Expense tracking system with monthly summaries and category-based analysis.",
+      "medi": "Medication management application with automated email reminders."
     }
   },
   "contact": {
