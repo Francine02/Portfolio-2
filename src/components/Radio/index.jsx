@@ -7,7 +7,7 @@ export function Radio({ selected, setSelected }) {
 
   return (
     <ul className="flex flex-wrap gap-3">
-      {PROJECTS_OPTIONS.map((name) => {
+      {PROJECTS_OPTIONS.map((name, index) => {
         const id = `project-option-${name}`;
 
         const normalizeName = name
@@ -15,7 +15,7 @@ export function Radio({ selected, setSelected }) {
           .replace(/[\u0300-\u036f]/g, '');
 
         const option =
-          name === 'Todos' || name === 'Voluntários'
+          name === 'Todos'
             ? t(`projetos.opcoes.${normalizeName.toLowerCase()}`)
             : name;
         return (
@@ -27,13 +27,13 @@ export function Radio({ selected, setSelected }) {
               name="projects"
               className="hidden peer"
               required=""
-              onClick={() => setSelected(name)}
+              onClick={() => setSelected(index)}
               checked={selected}
             />
             <label
               htmlFor={id}
               className={cn(
-                selected === option
+                selected === index
                   ? 'button-base cursor-pointer'
                   : 'button-outlined cursor-pointer'
               )}
