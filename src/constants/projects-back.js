@@ -1,8 +1,7 @@
-import kandoImg from '../../public/imgs/kando.png';
-import receitotecaImg from '../../public/imgs/receitoteca.png';
+import kandoImg from '/imgs/kando.png';
+import receitotecaImg from '/imgs/receitoteca.png';
 
 const receitoteca = {
-  id: 6,
   name: 'Receitoteca',
   img: receitotecaImg,
   repository: 'https://github.com/Francine02/Receitoteca',
@@ -10,7 +9,6 @@ const receitoteca = {
 };
 
 const kando = {
-  id: 7,
   name: 'KanDo',
   img: kandoImg,
   repository: 'https://github.com/Francine02/KanDo/tree/main/backend',

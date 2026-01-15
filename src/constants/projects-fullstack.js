@@ -1,8 +1,7 @@
-import controleImg from '../../public/imgs/controle.png';
-import mediImg from '../../public/imgs/medi.png';
+import controleImg from '/imgs/controle.png';
+import mediImg from '/imgs/medi.png';
 
 const medi = {
-  id: 1,
   name: 'Medi',
   img: mediImg,
   deploy: 'https://medi-five-fawn.vercel.app/',
@@ -11,7 +10,6 @@ const medi = {
 };
 
 const controleDespesas = {
-  id: 2,
   name: 'Controle de Despesas',
   img: controleImg,
   deploy: 'https://controle-de-despesas-umber.vercel.app',
