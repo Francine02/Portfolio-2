@@ -17,7 +17,7 @@ export function Technologies() {
                 key={name}
                 className="group relative flex flex-col items-center hover:scale-110 transition"
               >
-                <Icon size={30} color={color} />
+                <Icon size={25} color={color} />
                 <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max max-w-xs bg-black text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                   {name}
                 </span>
