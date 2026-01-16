@@ -1,9 +1,9 @@
-import converImg from '../../public/imgs/conver.png';
-import lectifyImg from '../../public/imgs/lectify.png';
-import quicklistImg from '../../public/imgs/quicklist.png';
+import converImg from '/imgs/conver.png';
+import lectifyImg from '/imgs/lectify.png';
+import lectify1Img from '/imgs/lectify1.png';
+import quicklistImg from '/imgs/quicklist.png';
 
 const conver = {
-  id: 3,
   name: 'Conver',
   img: converImg,
   deploy: 'https://conver-taupe.vercel.app/',
@@ -12,7 +12,6 @@ const conver = {
 };
 
 const quicklist = {
-  id: 4,
   name: 'Quicklist',
   img: quicklistImg,
   deploy: 'https://francine02.github.io/Quicklist-Rocketseat/',
@@ -20,13 +19,19 @@ const quicklist = {
   about: 'quicklist',
 };
 
-const lectify = {
-  id: 5,
-  name: 'Lectify',
-  img: lectifyImg,
-  deploy: 'https://lectify.vercel.app/',
-  repository: 'https://github.com/Francine02/Lectify',
+const lectify1 = {
+  name: 'Lectify - V.1',
+  img: lectify1Img,
+  repository: 'https://github.com/Francine02/Lectify/tree/v1',
   about: 'lectify',
 };
 
-export const PROJECTS_FRONT = [conver, quicklist, lectify];
+const lectify = {
+  name: 'Lectify - V.2',
+  img: lectifyImg,
+  deploy: 'https://lectify.vercel.app/',
+  repository: 'https://github.com/Francine02/Lectify',
+  about: 'lectify2',
+};
+
+export const PROJECTS_FRONT = [conver, quicklist, lectify1, lectify];
