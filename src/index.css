@@ -94,11 +94,14 @@
 }
 
 @layer components {
+  .container {
+    @apply max-w-7xl mx-auto;
+  }
   .padding {
-    @apply px-7 sm:px-14 lg:px-28 2xl:px-96;
+    @apply px-7 sm:px-14 lg:px-28;
   }
   .section-layout {
-    @apply border border-purple-200 px-5 2xl:px-14 mx-5 sm:mx-12 lg:mx-26 2xl:mx-94 rounded-2xl z-1 relative mt-24 bg-white dark:bg-dark;
+    @apply border border-purple-200 px-5 2xl:px-14 mx-5 sm:mx-12 lg:mx-26 rounded-2xl z-1 relative mt-24 bg-white dark:bg-dark;
   }
   .button-base {
     @apply bg-gradient-to-r from-pink to-purple w-fit text-white px-3 py-0.5 rounded-lg font-semibold hover:brightness-90 cursor-pointer;
