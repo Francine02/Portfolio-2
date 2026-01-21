@@ -12,7 +12,6 @@ export default defineConfig({
       '@constants': path.resolve(__dirname, './src/constants'),
       '@assets': path.resolve(__dirname, './src/assets'),
       '@i18n': path.resolve(__dirname, './src/i18n'),
-      '@projects': path.resolve(__dirname, './src/projects'),
       '@lib': path.resolve(__dirname, './src/lib'),
     },
   },
