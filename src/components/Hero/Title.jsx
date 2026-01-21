@@ -1,5 +1,4 @@
 import { AuroraText } from '@components/Magic-UI/AuroraText';
-import { WordRotate } from '@components/Magic-UI/WordRotate';
 import { useTranslation } from 'react-i18next';
 
 export function Title() {
@@ -13,9 +12,7 @@ export function Title() {
       </h1>
 
       <div className="flex items-center gap-1.5 text-subtitle font-semibold">
-        <h3>—{t('hero.titulo')}</h3>
-        <WordRotate words={['Full Stack', 'Front End', 'Back End']} />
-        <h3>—</h3>
+        <h3>—{t('hero.titulo')} FullStack—</h3>
       </div>
     </div>
   );
