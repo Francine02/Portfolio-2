@@ -28,7 +28,7 @@ export function Radio({ selected, setSelected }) {
               className="hidden peer"
               required=""
               onClick={() => setSelected(index)}
-              checked={selected}
+              defaultChecked={selected}
             />
             <label
               htmlFor={id}
