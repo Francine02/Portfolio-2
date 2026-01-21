@@ -2,6 +2,7 @@ import { FaJava } from 'react-icons/fa';
 import {
   SiBootstrap,
   SiCss3,
+  SiDocker,
   SiFigma,
   SiGit,
   SiGithub,
@@ -14,6 +15,7 @@ import {
   SiReact,
   SiSpringboot,
   SiSwagger,
+  SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si';
 
@@ -28,6 +30,7 @@ export const TECHNOLOGIES_LIST = [
       { name: 'HTML', icon: SiHtml5, color: '#E34F26' },
       { name: 'CSS', icon: SiCss3, color: '#1572B6' },
       { name: 'Bootstrap', icon: SiBootstrap, color: '#7952B3' },
+      { name: 'TailwindCSS', icon: SiTailwindcss, color: '#00B9FF' },
     ],
   },
   {
@@ -37,6 +40,7 @@ export const TECHNOLOGIES_LIST = [
       { name: 'Spring Boot', icon: SiSpringboot, color: '#6DB33F' },
       { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
       { name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
+      { name: 'Docker', icon: SiDocker, color: '#0088ff' },
     ],
   },
   {
