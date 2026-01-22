@@ -18,6 +18,7 @@
   },
   "projetos": {
     "titulo": "Projetos",
+    "obs": "Alguns projetos possuem vídeo demonstrativo. Clique nos que têm o símbolo de play na imagem para assistir.",
     "opcoes": {
       "todos": "Todos",
       "voluntarios": "Voluntários"

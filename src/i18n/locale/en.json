@@ -18,6 +18,7 @@
   },
   "projetos": {
     "titulo": "Projects",
+    "obs": "Some projects include a demo video. Click on those with a play icon on the image to watch.",
     "opcoes": {
       "todos": "All",
       "voluntarios": "Volunteers"
