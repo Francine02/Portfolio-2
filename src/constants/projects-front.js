@@ -21,7 +21,7 @@ const conver = {
   deploy: 'https://conver-taupe.vercel.app/',
   repository: 'https://github.com/Francine02/Conver',
   about: 'conver',
-  demo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7257427737840078850?compact=1',
+  demo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7257427737840078850?collapsed=1',
   techs: [
     { name: 'React', icon: SiReact, color: '#61DAFB' },
     { name: 'Vite', icon: SiVite, color: '#7952B3' },
@@ -48,7 +48,7 @@ const lectify1 = {
   img: lectify1Img,
   repository: 'https://github.com/Francine02/Lectify/tree/v1',
   about: 'lectify',
-  demo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7312509759415377921?compact=1',
+  demo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7312509759415377921?collapsed=1',
   techs: [
     { name: 'React', icon: SiReact, color: '#61DAFB' },
     { name: 'Next', icon: SiNextdotjs, color: '#606060' },

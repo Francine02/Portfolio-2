@@ -19,7 +19,7 @@ const medi = {
   deploy: 'https://medi-five-fawn.vercel.app/',
   repository: 'https://github.com/Francine02/Medi',
   about: 'medi',
-  demo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7251701291750449153?compact=1',
+  demo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7251701291750449153?collapsed=1',
   techs: [
     { name: 'React', icon: SiReact, color: '#61DAFB' },
     { name: 'Vite', icon: SiVite, color: '#7952B3' },
@@ -38,7 +38,7 @@ const controleDespesas = {
   deploy: 'https://controle-de-despesas-umber.vercel.app',
   repository: 'https://github.com/Francine02/Controle-de-Despesas',
   about: 'controleDespesas',
-  demo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7231757276162715648?compact=1',
+  demo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7231757276162715648?collapsed=1',
   techs: [
     { name: 'React', icon: SiReact, color: '#61DAFB' },
     { name: 'Vite', icon: SiVite, color: '#7952B3' },
