@@ -1,8 +1,124 @@
 @import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
 * {
   scrollbar-width: thin;
   scrollbar-color: #db2777 #f0e9dd;
+  scroll-behavior: smooth;
+}
+
+#avatar {
+  filter: drop-shadow(5px 0px 6px #545454);
+}
+
+@theme {
+  --font-title: 'Abril Fatface', serif;
+  --font-text: 'Lato', sans-serif;
+
+  --color-text-light: #292929;
+  --color-text-dark: #f3f2f2;
+
+  --color-dark: #353535;
+
+  --color-pink: #ec4899;
+  --color-purple: #8b5cf6;
+
+  --text-subtitle: clamp(2.4svh, 2vw, 1.6rem);
+  --text-hero-title: clamp(4.5svh, 5vw, 4rem);
+
+  --text-body: clamp(1rem, 1.8vw, 1.3rem);
+
+  --animate-aurora: aurora 8s ease-in-out infinite alternate;
+  @keyframes aurora {
+    0% {
+      background-position: 0% 50%;
+      transform: rotate(-5deg) scale(0.9);
+    }
+    25% {
+      background-position: 50% 100%;
+      transform: rotate(5deg) scale(1.1);
+    }
+    50% {
+      background-position: 100% 50%;
+      transform: rotate(-3deg) scale(0.95);
+    }
+    75% {
+      background-position: 50% 0%;
+      transform: rotate(3deg) scale(1.05);
+    }
+    100% {
+      background-position: 0% 50%;
+      transform: rotate(-5deg) scale(0.9);
+    }
+  }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+@theme inline {
+  --animate-aurora: aurora 8s ease-in-out infinite alternate;
+  @keyframes aurora {
+    0% {
+      background-position: 0% 50%;
+      transform: rotate(-5deg) scale(0.9);
+    }
+    25% {
+      background-position: 50% 100%;
+      transform: rotate(5deg) scale(1.1);
+    }
+    50% {
+      background-position: 100% 50%;
+      transform: rotate(-3deg) scale(0.95);
+    }
+    75% {
+      background-position: 50% 0%;
+      transform: rotate(3deg) scale(1.05);
+    }
+    100% {
+      background-position: 0% 50%;
+      transform: rotate(-5deg) scale(0.9);
+    }
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto;
+  }
+  .padding {
+    @apply px-7 sm:px-14 lg:px-28;
+  }
+  .section-gray {
+    @apply mt-24 py-10 bg-gray-100 dark:bg-neutral-800 rounded-4xl;
+  }
+  .section-layout {
+    @apply border border-purple-200 px-5 2xl:px-14 mx-5 sm:mx-12 lg:mx-26 rounded-2xl z-1 relative mt-24 bg-white dark:bg-dark;
+  }
+  .button-base {
+    @apply bg-gradient-to-r from-pink to-purple w-fit text-white px-3 py-0.5 rounded-lg font-semibold hover:brightness-90 cursor-pointer;
+  }
+  .button-outlined {
+    @apply px-3 py-0.5 cursor-pointer rounded-lg font-semibold border-2 border-gray-200 text-gray-600 dark:text-gray-300 dark:border-neutral-600 hover:brightness-90;
+  }
+  .line-hero {
+    @apply absolute border border-purple-200 dark:opacity-30;
+  }
+  .gradient {
+    @apply bg-gradient-to-r from-pink to-purple;
+  }
+  .input {
+    @apply bg-transparent border border-gray-300 dark:border-neutral-600 text-sm block w-full rounded-lg px-3 py-2 shadow-xs;
+  }
 }

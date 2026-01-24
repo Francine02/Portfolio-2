@@ -1,41 +1,86 @@
 {
-  "inicio": "Início",
-  "sobre": "Sobre",
-  "projetos": "Projetos",
-  "contato": "Contato",
-  "resumo": "Olá! Eu sou a",
-  "resumo-titulo": "--Desenvolvedora Full Stack--",
-  "sobre/secao": {
+  "header": {
+    "inicio": "Início",
     "sobre": "Sobre",
-    "resumo": "Bem-vindo(a) ao meu portfólio!",
-    "resumo1": "Sou estudante de",
-    "resumo2": " Engenharia de Software",
-    "resumo3": " na Uninter, desenvolvedora Full Stack e busco criar experiências digitais envolventes. Em meus projetos, utilizo tecnologias como ",
-    "tecnologias": "HTML, CSS, JavaScript, React.js, TypeScript, Tailwind CSS, Bootstrap, Java, Spring Boot e bancos de dados como PostgreSQL, MySQL e MongoDB.",
-    "resumo4": "Como profissional sou ",
-    "resumo-soft-skills": "organizada e resiliente,",
-    "resumo4-1": " familiarizada com metodologias ágeis e comprometida com a entrega de resultados, sempre aberta a novos aprendizados. "
+    "projetos": "Projetos",
+    "contato": "Contato",
+    "experiencias": "Experiências"
   },
-  "projects": {
-    "project": "Projetos",
-    "restaurante_about": "Projeto do Restaurante Japa, uma aplicação web para exibir e pedir pratos de comida japonesa online. Ele possui como funcionalidades: exibição de diferentes categorias de pratos de comida japonesa (combos, pratos quentes e bebidas), adição de itens ao carrinho de compras e navegação entre diferentes categorias de pratos.",
-    "restaurante_name": "Restaurante Japa",
-    "clima_name": "Clima",
-    "clima_about": "Este projeto aborda a previsão do tempo ao pesquisar uma cidade, mostrando: ícones personalizados, temperatura, vento e umidade em tempo real com a utilização da API OpenWeather.",
-    "control_expense-name": "Controle de Despesas",
-    "control_expense": "Projeto web de gerenciamento financeiro pessoal que oferece autenticação e autorização seguras. Ele permite que os usuários adicionem, editem e excluam despesas facilmente, visualizem despesas totais, rastreiem gastos mensais e identifiquem a categoria de despesas mais frequente.",
-    "medi_name": "Medi - Lembrete de medicamentos",
-    "medi": "Este projeto foi desenvolvido para auxiliar usuários a gerenciar seus medicamentos. É possível cadastrar, editar e excluir medicamentos, além de configurar lembretes por e-mail para o horário correto. Observação: Para garantir um funcionamento eficiente, a verificação dos lembretes é realizada a cada 10 minutos, o que ajuda a evitar sobrecarga no servidor. No entanto, pode haver pequenos atrasos ou falhas ocasionais no envio dos lembretes.",
-    "conver_name": "Conver: Transforme Seus Documentos em Segundos!",
-    "conver": "O Conver é um site prático e rápido para converter documentos em vários formatos, desenvolvido em colaboração com George Victor. Nele, implementei uma interface responsiva com modos claro e escuro, suporte a múltiplos formatos, upload simplificado e feedback de carregamento. O backend, desenvolvido por George, processa as conversões e retorna o arquivo pronto para download."
+  "hero": {
+    "apresentacao": "Olá, eu sou a ",
+    "titulo": "Desenvolvedora "
   },
-  "contact": {
-    "name": "Insira seu nome...",
-    "email": "Insira o seu e-mail...",
-    "messagem": "Insira sua mensagem...",
-    "enviar": "ENVIAR",
-    "ou": "Ou",
-    "successMessage": "SUCESSO! Mensagem enviada.",
-    "errorMessage": "ERRO! Mensagem não enviada."
+  "sobre": {
+    "titulo": "Sobre",
+    "resumo": "Sou Francine, estudante de <strong>Engenharia de Software</strong> e <strong>desenvolvedora Full Stack</strong> em formação. Tenho experiência prática em <strong>projetos pessoais</strong>, <strong>voluntários</strong> e <strong>freelas</strong>, criando <strong>interfaces responsivas</strong>, desenvolvendo e integrando <strong>APIs</strong>, e implementando sistemas como a <strong>Stripe</strong>.",
+    "resumo1": "Já atuei em <strong>times ágeis</strong> com foco em <strong>acessibilidade</strong>, <strong>formulários dinâmicos</strong> e <strong>soluções com impacto real</strong>. Busco minha <strong>primeira oportunidade como desenvolvedora</strong> para continuar <strong>evoluindo</strong>, <strong>entregando valor</strong> e <strong>aprendendo com novos desafios</strong>.",
+    "ferramentas": "Ferramentas"
+  },
+  "projetos": {
+    "titulo": "Projetos",
+    "obs": "Alguns projetos possuem vídeo demonstrativo. Clique nos que têm o símbolo de play na imagem para assistir.",
+    "opcoes": {
+      "todos": "Todos",
+      "voluntarios": "Voluntários"
+    },
+    "sobre": {
+      "receitoteca": "API para gerenciamento de receitas, com cadastro, edição, exclusão e geração de PDFs.",
+      "kando": "API de quadros colaborativos para criação de boards, cartões e compartilhamento via links.",
+      "conver": "Aplicação web para conversão rápida de arquivos em diversos formatos, com interface responsiva.",
+      "quicklist": "Aplicação simples para gerenciamento de lista de compras semanal, com adição, conclusão e remoção de itens.",
+      "lectify": "Plataforma que gera resumos ou testes a partir de URLs do YouTube ou arquivos enviados.",
+      "lectify2": "Semelhante a versão 1 do Lectify, porém com funcionalidades novas como login, cadastro e etc.",
+      "controleDespesas": "Sistema para controle de despesas, com resumo mensal e análise por categorias.",
+      "medi": "Aplicação para gerenciamento de medicamentos, com lembretes automáticos por e-mail."
+    }
+  },
+  "experiencias": {
+    "visualizar": {
+      "detalhes": "Detalhes",
+      "resumo": "Resumido"
+    },
+    "freelancer": {
+      "title": "Desenvolvedora Front-end",
+      "data": "Abr/2025 – Nov/2025",
+      "modalidade": " Remoto",
+      "empresa": "Freelancer",
+      "descricao": "Desenvolvimento de interfaces web responsivas em React, seguindo protótipos e boas práticas de UX/UI. Integração com APIs, criação de formulários com validação e foco em usabilidade e experiência do usuário."
+    },
+    "ipe_code": {
+      "title": "Desenvolvedora Front-end (Voluntária)",
+      "data": "Set/2024 – Mai/2025",
+      "empresa": "IpêCode",
+      "modalidade": " Remoto",
+      "descricao": "Atuação no desenvolvimento de interfaces para o projeto da ONG ABNMO, com foco em acessibilidade, responsividade e experiência do usuário. Implementação de formulários validados e colaboração em equipe ágil (Scrum/Kanban)."
+    },
+    "recomecando": {
+      "title": "Desenvolvedora Full Stack (Voluntária)",
+      "data": "Dez/2024 – Fev/2025",
+      "empresa": "ONG Recomeçando",
+      "modalidade": " Remoto",
+      "descricao": "Desenvolvimento e integração de sistema de pagamentos para projeto social, incluindo implementação da Stripe, configuração de webhooks e melhorias em dashboard para gestão de transações."
+    },
+    "beira_rio": {
+      "title": "Operadora de Produção",
+      "data": "Jan/2022 – Jun/2024",
+      "empresa": "Beira Rio S/A",
+      "modalidade": " Presencial",
+      "descricao": "Atuação na otimização do fluxo produtivo utilizando software de organização de corte, contribuindo para redução de desperdícios e aumento de eficiência. Apoio técnico, adaptação a novos sistemas e trabalho colaborativo em equipe."
+    },
+    "uninter": {
+      "title": "Bacharelado em Engenharia de Software",
+      "data": "Out/2021 – Cursando",
+      "empresa": "Uninter",
+      "modalidade": " EAD",
+      "descricao": ""
+    }
+  },
+  "contato": {
+    "obs": "Tem uma ideia saindo do papel ou uma vaga com a minha cara? Envie sua ideia e bora construir algo incrível!",
+    "enviar": "Enviar"
+  },
+  "footer": {
+    "desenvolvido": "Desenvolvido por Francine Cruz",
+    "direitos": "© 2025 Francine Carolina O. Cruz. Todos os direitos reservados."
   }
 }

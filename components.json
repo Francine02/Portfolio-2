@@ -9,10 +9,13 @@
     "baseColor": "slate",
     "cssVariables": false
   },
+  "iconLibrary": "lucide",
   "aliases": {
     "components": "@/components",
-    "utils": "@/lib/utils",
-    "ui": "@/components/ui",
-    "magicui": "@/components/magicui"
+    "utils": "@/lib/utils"
+  },
+  "registries": {
+    "@Magic-UI": "https://Magic-UI.design/r/{name}.json",
+    "@magicui": "https://magicui.design/r/{name}.json"
   }
 }

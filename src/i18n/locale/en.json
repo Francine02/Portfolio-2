@@ -1,41 +1,86 @@
 {
-  "inicio": "Home",
-  "sobre": "About",
-  "projetos": "Projects",
-  "contato": "Contact",
-  "resumo": "Hello! I'm",
-  "resumo-titulo": "--Full Stack Developer--",
-  "sobre/secao": {
+  "header": {
+    "inicio": "Home",
     "sobre": "About",
-    "resumo": "Welcome to my portfolio!",
-    "resumo1": "I am a student of",
-    "resumo2": " Software Engineering",
-    "resumo3": " at Uninter, a Full Stack developer and strive to create engaging digital experiences. In my projects, I use technologies such as",
-    "tecnologias": " HTML, CSS, JavaScript, React.js, TypeScript, Tailwind CSS, Bootstrap, Java, Spring Boot, and databases like PostgreSQL, MySQL, and MongoDB.",
-    "resumo4": "As a professional, I am",
-    "resumo-soft-skills": " organized and resilient,",
-    "resumo4-1": " familiar with agile methodologies and committed to delivering results, always open to new learnings."
+    "projetos": "Projects",
+    "contato": "Contact",
+    "experiencias": "Experiences"
   },
-  "projects": {
-    "project": "Projects",
-    "restaurante_about": "The Japa Restaurant Project, a web application for displaying and ordering Japanese food dishes online. Its features include: displaying different categories of Japanese food dishes (combos, hot dishes, and drinks), adding items to the shopping cart, and navigating between different categories of dishes.",
-    "restaurante_name": "Restaurant Japa",
-    "clima_name": "Climate",
-    "clima_about": "This project addresses weather forecasting by searching for a city, showing: custom icons, temperature, wind, and humidity in real-time using the OpenWeather API..",
-    "control_expense-name": "Expense Control",
-    "control_expense": "Personal finance management web project with secure authentication and authorization. It allows users to easily add, edit, and delete expenses, view total expenses, track monthly spending, and identify the most frequent expense category.",
-    "medi_name": "Medi - Medication Reminder",
-    "medi": "This project was developed to help users manage their medications. You can register, edit, and delete medications, as well as set up email reminders for the correct time. Note: To ensure efficient operation, reminders are checked every 10 minutes, which helps to avoid server overload. However, there may be occasional delays or failures in sending reminders.",
-    "conver_name": "Conver: Transform Your Documents in Seconds!",
-    "conver": "Conver is a fast and convenient website for converting documents across various formats, developed in collaboration with George Victor. I implemented a responsive interface with light/dark modes, multi-format support, simplified upload, and loading feedback. George backend processes conversions and returns the files ready for download."
+  "hero": {
+    "apresentacao": "Hello, I'm ",
+    "titulo": "Full Stack "
   },
-  "contact": {
-    "name": "Enter your name...",
-    "email": "Enter your e-mail...",
-    "messagem": "Enter your message...",
-    "enviar": "SEND",
-    "ou": "Or",
-    "successMessage": "SUCCESS! Message sent.",
-    "errorMessage": "ERROR! Message not sent."
+  "sobre": {
+    "titulo": "About",
+    "resumo": "I'm Francine, a <strong>Software Engineering student</strong> and a <strong>Full Stack developer</strong> in training. I have hands-on experience with <strong>personal projects</strong>, <strong>volunteer projects</strong>, and <strong>freelance projects</strong> — creating <strong>responsive interfaces</strong>, developing and integrating <strong>APIs</strong>, and implementing systems such as <strong>Stripe</strong>.",
+    "resumo1": "I have worked in <strong>agile teams</strong> focused on <strong>accessibility</strong>, <strong>dynamic forms</strong>, and <strong>real-impact solutions</strong>. I’m seeking my <strong>first opportunity as a developer</strong> to keep <strong>growing</strong>, <strong>delivering value</strong>, and <strong>learning from new challenges</strong>.",
+    "ferramentas": "Tools"
+  },
+  "projetos": {
+    "titulo": "Projects",
+    "obs": "Some projects include a demo video. Click on those with a play icon on the image to watch.",
+    "opcoes": {
+      "todos": "All",
+      "voluntarios": "Volunteers"
+    },
+    "sobre": {
+      "receitoteca": "API for managing recipes, allowing creation, editing, deletion, and PDF generation.",
+      "kando": "Collaborative board management API for creating boards, managing cards, and sharing via links.",
+      "conver": "Web application for fast file conversion across multiple formats with a responsive interface.",
+      "quicklist": "Simple application for managing a weekly shopping list with item creation, completion, and removal.",
+      "lectify": "Platform that generates summaries or quizzes from YouTube URLs or uploaded files.",
+      "lectify2": "Similar to version 1 of Lectify, but with new features such as login, registration and etc.",
+      "controleDespesas": "Expense tracking system with monthly summaries and category-based analysis.",
+      "medi": "Medication management application with automated email reminders."
+    }
+  },
+  "experiencias": {
+    "visualizar": {
+      "detalhes": "Details",
+      "resumo": "Summary"
+    },
+    "freelancer": {
+      "title": "Front-end Developer",
+      "data": "Apr/2025 – Nov/2025",
+      "modalidade": " Remote",
+      "empresa": "Freelancer",
+      "descricao": "Development of responsive web interfaces using React, following provided prototypes and UX/UI best practices. Integration with APIs, creation of forms with validation and a strong focus on usability and user experience."
+    },
+    "ipe_code": {
+      "title": "Front-end Developer (Volunteer)",
+      "data": "Sep/2024 – May/2025",
+      "empresa": "IpêCode",
+      "modalidade": " Remote",
+      "descricao": "Worked on the development of interfaces for the ABNMO NGO project, focusing on accessibility, responsiveness, and user experience. Implementation of validated forms and collaboration within an agile team (Scrum/Kanban)."
+    },
+    "recomecando": {
+      "title": "Full Stack Developer (Volunteer)",
+      "data": "Dec/2024 – Feb/2025",
+      "empresa": "ONG Recomeçando",
+      "modalidade": " Remote",
+      "descricao": "Development and integration of a payment system for a social project, including Stripe implementation, webhook configuration and dashboard improvements for transaction management."
+    },
+    "beira_rio": {
+      "title": "Production Operator",
+      "data": "Jan/2022 – Jun/2024",
+      "empresa": "Beira Rio S/A",
+      "modalidade": " On-site",
+      "descricao": "Worked on optimizing the production workflow using cutting organization software, contributing to waste reduction and increased efficiency. Provided technical support, adapted to new systems and collaborated closely with the team."
+    },
+    "uninter": {
+      "title": "Bachelor’s Degree in Software Engineering",
+      "data": "Oct/2021 – Ongoing",
+      "empresa": "Uninter",
+      "modalidade": " EAD",
+      "descricao": ""
+    }
+  },
+  "contato": {
+    "obs": "Have an idea ready to take off or a role that fits me perfectly? Share your idea and let’s build something amazing!",
+    "enviar": "Send"
+  },
+  "footer": {
+    "desenvolvido": "Developed by Francine Cruz",
+    "direitos": "© 2025 Francine C. O. Cruz. All rights reserved."
   }
 }
