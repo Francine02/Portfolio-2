@@ -11,7 +11,7 @@ export function Projects() {
   const [selected, setSelected] = useState(0);
 
   return (
-    <section className="mt-14 container" id="projeto">
+    <section className="pt-24 container" id="projetos">
       <TitleWithFlowers
         className="dark:text-white"
         title={t('projetos.titulo')}
