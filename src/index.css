@@ -100,6 +100,9 @@
   .padding {
     @apply px-7 sm:px-14 lg:px-28;
   }
+  .section-gray {
+    @apply mt-24 py-10 bg-gray-100 dark:bg-neutral-800 rounded-4xl;
+  }
   .section-layout {
     @apply border border-purple-200 px-5 2xl:px-14 mx-5 sm:mx-12 lg:mx-26 rounded-2xl z-1 relative mt-24 bg-white dark:bg-dark;
   }
@@ -111,5 +114,11 @@
   }
   .line-hero {
     @apply absolute border border-purple-200 dark:opacity-30;
+  }
+  .gradient {
+    @apply bg-gradient-to-r from-pink to-purple;
+  }
+  .input {
+    @apply bg-transparent border border-gray-300 dark:border-neutral-600 text-sm block w-full rounded-lg px-3 py-2 shadow-xs;
   }
 }
