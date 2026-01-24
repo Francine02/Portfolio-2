@@ -34,13 +34,53 @@
       "medi": "Aplicação para gerenciamento de medicamentos, com lembretes automáticos por e-mail."
     }
   },
-  "contact": {
-    "name": "Insira seu nome...",
-    "email": "Insira o seu e-mail...",
-    "messagem": "Insira sua mensagem...",
-    "enviar": "ENVIAR",
-    "ou": "Ou",
-    "successMessage": "SUCESSO! Mensagem enviada.",
-    "errorMessage": "ERRO! Mensagem não enviada."
+  "experiencias": {
+    "visualizar": {
+      "detalhes": "Detalhes",
+      "resumo": "Resumido"
+    },
+    "freelancer": {
+      "title": "Desenvolvedora Front-end",
+      "data": "Abr/2025 – Nov/2025",
+      "modalidade": " Remoto",
+      "empresa": "Freelancer",
+      "descricao": "Desenvolvimento de interfaces web responsivas em React, seguindo protótipos e boas práticas de UX/UI. Integração com APIs, criação de formulários com validação e foco em usabilidade e experiência do usuário."
+    },
+    "ipe_code": {
+      "title": "Desenvolvedora Front-end (Voluntária)",
+      "data": "Set/2024 – Mai/2025",
+      "empresa": "IpêCode",
+      "modalidade": " Remoto",
+      "descricao": "Atuação no desenvolvimento de interfaces para o projeto da ONG ABNMO, com foco em acessibilidade, responsividade e experiência do usuário. Implementação de formulários validados e colaboração em equipe ágil (Scrum/Kanban)."
+    },
+    "recomecando": {
+      "title": "Desenvolvedora Full Stack (Voluntária)",
+      "data": "Dez/2024 – Fev/2025",
+      "empresa": "ONG Recomeçando",
+      "modalidade": " Remoto",
+      "descricao": "Desenvolvimento e integração de sistema de pagamentos para projeto social, incluindo implementação da Stripe, configuração de webhooks e melhorias em dashboard para gestão de transações."
+    },
+    "beira_rio": {
+      "title": "Operadora de Produção",
+      "data": "Jan/2022 – Jun/2024",
+      "empresa": "Beira Rio S/A",
+      "modalidade": " Presencial",
+      "descricao": "Atuação na otimização do fluxo produtivo utilizando software de organização de corte, contribuindo para redução de desperdícios e aumento de eficiência. Apoio técnico, adaptação a novos sistemas e trabalho colaborativo em equipe."
+    },
+    "uninter": {
+      "title": "Bacharelado em Engenharia de Software",
+      "data": "Out/2021 – Cursando",
+      "empresa": "Uninter",
+      "modalidade": " EAD",
+      "descricao": ""
+    }
+  },
+  "contato": {
+    "obs": "Tem uma ideia saindo do papel ou uma vaga com a minha cara? Envie sua ideia e bora construir algo incrível!",
+    "enviar": "Enviar"
+  },
+  "footer": {
+    "desenvolvido": "Desenvolvido por Francine Cruz",
+    "direitos": "© 2025 Francine Carolina O. Cruz. Todos os direitos reservados."
   }
 }

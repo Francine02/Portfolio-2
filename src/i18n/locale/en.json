@@ -34,13 +34,53 @@
       "medi": "Medication management application with automated email reminders."
     }
   },
-  "contact": {
-    "name": "Enter your name...",
-    "email": "Enter your e-mail...",
-    "messagem": "Enter your message...",
-    "enviar": "SEND",
-    "ou": "Or",
-    "successMessage": "SUCCESS! Message sent.",
-    "errorMessage": "ERROR! Message not sent."
+  "experiencias": {
+    "visualizar": {
+      "detalhes": "Details",
+      "resumo": "Summary"
+    },
+    "freelancer": {
+      "title": "Front-end Developer",
+      "data": "Apr/2025 – Nov/2025",
+      "modalidade": " Remote",
+      "empresa": "Freelancer",
+      "descricao": "Development of responsive web interfaces using React, following provided prototypes and UX/UI best practices. Integration with APIs, creation of forms with validation and a strong focus on usability and user experience."
+    },
+    "ipe_code": {
+      "title": "Front-end Developer (Volunteer)",
+      "data": "Sep/2024 – May/2025",
+      "empresa": "IpêCode",
+      "modalidade": " Remote",
+      "descricao": "Worked on the development of interfaces for the ABNMO NGO project, focusing on accessibility, responsiveness, and user experience. Implementation of validated forms and collaboration within an agile team (Scrum/Kanban)."
+    },
+    "recomecando": {
+      "title": "Full Stack Developer (Volunteer)",
+      "data": "Dec/2024 – Feb/2025",
+      "empresa": "ONG Recomeçando",
+      "modalidade": " Remote",
+      "descricao": "Development and integration of a payment system for a social project, including Stripe implementation, webhook configuration and dashboard improvements for transaction management."
+    },
+    "beira_rio": {
+      "title": "Production Operator",
+      "data": "Jan/2022 – Jun/2024",
+      "empresa": "Beira Rio S/A",
+      "modalidade": " On-site",
+      "descricao": "Worked on optimizing the production workflow using cutting organization software, contributing to waste reduction and increased efficiency. Provided technical support, adapted to new systems and collaborated closely with the team."
+    },
+    "uninter": {
+      "title": "Bachelor’s Degree in Software Engineering",
+      "data": "Oct/2021 – Ongoing",
+      "empresa": "Uninter",
+      "modalidade": " EAD",
+      "descricao": ""
+    }
+  },
+  "contato": {
+    "obs": "Have an idea ready to take off or a role that fits me perfectly? Share your idea and let’s build something amazing!",
+    "enviar": "Send"
+  },
+  "footer": {
+    "desenvolvido": "Developed by Francine Cruz",
+    "direitos": "© 2025 Francine C. O. Cruz. All rights reserved."
   }
 }
