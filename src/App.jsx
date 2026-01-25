@@ -5,6 +5,7 @@ import { Footer } from '@components/Footer/index';
 import { Header } from '@components/Header/index';
 import { Hero } from '@components/Hero/index';
 import { Projects } from '@components/Projects/index';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <Contact />
 
       <Footer />
+
+      <ToastContainer position="top-right" autoClose={3000} />
     </main>
   );
 }
