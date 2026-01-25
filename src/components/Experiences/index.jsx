@@ -13,7 +13,7 @@ export function Experiences() {
   return (
     <section className="section-gray" id="experiencias">
       <div className="container">
-        <div className="flex justify-around items-center">
+        <div className="flex flex-col items-start space-y-5 sm:space-y-0 sm:flex-row sm:justify-around sm:items-center">
           <TitleWithFlowers
             className="dark:text-white"
             title={t('header.experiencias')}
