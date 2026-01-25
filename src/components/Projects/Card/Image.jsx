@@ -7,6 +7,10 @@ import { Video } from './Video';
 export function Image({ demo, title, img }) {
   const [showVideo, setShowVideo] = useState(false);
 
+  const openVideo = () => {
+    if (demo) setShowVideo(true);
+  };
+
   return (
     <>
       {demo && (
@@ -21,7 +25,7 @@ export function Image({ demo, title, img }) {
       )}
       {showVideo && <Video demo={demo} onClose={() => setShowVideo(false)} />}
       <img
-        onClick={() => setShowVideo(true)}
+        onClick={openVideo}
         src={img}
         alt={title}
         className={cn(
