@@ -87,6 +87,10 @@
       "maxLength": "Campo muito longo",
       "pattern": "Campo inválido",
       "letrasSomente": "Use apenas letras"
+    },
+    "form": {
+      "nome": "Nome",
+      "messagem": "Messagem..."
     }
   },
   "footer": {

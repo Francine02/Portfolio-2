@@ -87,6 +87,10 @@
       "maxLength": "Field is too long",
       "pattern": "Invalid field",
       "letrasSomente": "Use letters only"
+    },
+    "form": {
+      "nome": "Name",
+      "messagem": "Message..."
     }
   },
   "footer": {
