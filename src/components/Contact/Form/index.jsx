@@ -39,11 +39,11 @@ export function Form() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="bg-gray-100 dark:bg-neutral-800 rounded-xl p-8 w-full max-w-lg space-y-4"
+      className="bg-gray-100 dark:bg-neutral-800 rounded-xl p-8 w-full md:max-w-lg space-y-4 shadow-md"
     >
       <FormField error={errors.name?.message}>
         <input
-          placeholder="Nome"
+          placeholder={t('contato.form.nome')}
           className="input"
           {...register('name', {
             setValueAs: (v) => v.trim(),
@@ -81,7 +81,7 @@ export function Form() {
 
       <FormField error={errors.message?.message}>
         <textarea
-          placeholder="Mensagem..."
+          placeholder={t('contato.form.messagem')}
           className="input min-h-20 max-h-64"
           {...register('message', {
             setValueAs: (v) => v.trim(),
