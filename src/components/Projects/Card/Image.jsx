@@ -27,7 +27,8 @@ export function Image({ demo, title, img }) {
       <img
         onClick={openVideo}
         src={img}
-        alt={title}
+        alt=""
+        aria-hidden="true"
         className={cn(
           'rounded-lg h-40 w-full border border-gray-200 dark:border-neutral-600',
           demo && 'hover:border-gray-300 hover:border-4 cursor-pointer'
