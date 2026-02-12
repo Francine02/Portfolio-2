@@ -1,5 +1,6 @@
 import logo from '@assets/logo.png';
 import { ScrollProgress } from '@components/Magic-UI/ScrollProgress';
+import { AnimatePresence, motion } from 'motion/react';
 import { useState } from 'react';
 
 import { ContentLinks } from './ContentLinks';
@@ -17,12 +18,20 @@ export function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 z-50 w-full flex justify-between py-4 items-center px-7 sm:px-12 lg:px-24 2xl:px-96 bg-white dark:bg-dark">
-      <img
+    <motion.header
+      initial={{ y: -80, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
+      className="fixed top-0 left-0 z-50 w-full flex justify-between py-4 items-center px-7 sm:px-12 lg:px-24 2xl:px-96 bg-white dark:bg-dark"
+    >
+      <motion.img
         src={logo}
-        alt="Logo do portfólio"
+        alt="logo"
         className="w-8 cursor-pointer"
         onClick={toggleScrollUp}
+        whileHover={{ scale: 1.08 }}
+        whileTap={{ scale: 0.95 }}
+        transition={{ type: 'spring', stiffness: 300 }}
       />
 
       <nav className="space-x-10 xl:space-x-16 hidden md:block">
@@ -39,15 +48,21 @@ export function Header() {
       />
       <ScrollProgress className="top-14" />
 
-      {isMenuOpen && (
-        <nav
-          id="mobile-menu"
-          className="absolute top-14 pb-8 left-0 w-full bg-white dark:bg-[#272727] z-50 flex flex-col items-center space-y-4 md:hidden rounded-b-2xl shadow-xs"
-        >
-          <ContentLinks />
-          <Preferences />
-        </nav>
-      )}
-    </header>
+      <AnimatePresence>
+        {isMenuOpen && (
+          <motion.nav
+            id="mobile-menu"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+            className="absolute top-14 pb-8 left-0 w-full bg-white dark:bg-[#272727] z-50 flex flex-col items-center space-y-4 md:hidden rounded-b-2xl shadow-xs"
+          >
+            <ContentLinks />
+            <Preferences />
+          </motion.nav>
+        )}
+      </AnimatePresence>
+    </motion.header>
   );
 }
