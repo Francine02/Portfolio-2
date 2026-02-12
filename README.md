@@ -1,7 +1,7 @@
 <h1 align="center"> 
-  🎨 
+  <img width="41" height="27" alt="logo" src="https://github.com/user-attachments/assets/7b991e1d-c4ab-4dea-8e05-41d501be61b9" />
   <br>
-  Portfólio pessoal - Francine Cruz
+  Portfólio pessoal - Francine Cruz (v2)
   <p >
     <img src="https://img.shields.io/github/last-commit/Francine02/Portfolio-2?style=flat&logo=git&logoColor=white&color=4F46E5" alt="Last Commit">
     <img src="https://img.shields.io/github/languages/top/Francine02/Portfolio-2?style=flat&color=DB2777" alt="Top Language">
@@ -9,38 +9,125 @@
   </p>
 </h1>
 
-**Bem-vindo ao meu portfólio!** 
+## Sobre o projeto
 
-Aqui você encontrará uma visão geral dos projetos que desenvolvi e das habilidades que adquiri como desenvolvedora full stack. Este repositório é uma amostra do meu trabalho e um reflexo do meu compromisso.
+Este é o redesign do meu portfólio pessoal.  
+A proposta desta versão é apresentar meus projetos e experiências com uma identidade visual mais madura e animações modernas.
 
-## 🖼️  Visualização:
-<div align="center">
-  <img src="./public/print-pc.png" width="600" /> <img src="./public/print-mobile.png" width="200" /> 
+Além de servir como vitrine profissional, este projeto também representa minha evolução técnica e de organização de código.
+
+---
+
+## Versão anterior
+
+A versão inicial permanece disponível para fins de comparação:
+
+🔗 **Branch v1:**  https://github.com/Francine02/Portfolio-2/tree/v1
+
+🌐 **Deploy da v1:** https://portfolio-2-4f0p.onrender.com/
+
+---
+
+## Visualização
+
+### Desktop:
+
+<div align="start">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/74591e36-ba2d-4da2-82fb-ed34b6b6bad6" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/0806e011-f3af-45c3-837d-5eb2abfdb203" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/c77d10b2-1f9a-4f3c-993d-b579e302a6be" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/e08d9b0c-b50f-4495-894f-09364758595d" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/01bc6ad0-28be-450d-83ba-e42de3bc0158" />
 </div>
 
-## 🚀  Tecnologias 
-- ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) Estruturação das páginas e componentes.  
-- ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) Estilização para uma interface visual agradável.  
-- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) Para interatividade e funcionalidades dinâmicas.  
-- ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=white) Biblioteca principal para construção da interface do usuário com hooks como `useState` e `useEffect`.  
-- ![Bootstrap Icons](https://img.shields.io/badge/-Bootstrap_Icons-7952B3?style=flat&logo=bootstrap&logoColor=white) Ícones prontos para uso em componentes.  
-- ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) Framework de CSS para estilização responsiva e otimizada.  
-- ![Magic UI](https://img.shields.io/badge/-Magic_UI-7B61FF?style=flat&logoColor=white) Biblioteca para animações elegantes e interativas.  
-- ![EmailJS](https://img.shields.io/badge/-EmailJS-FF8A65?style=flat&logoColor=white) Integração de envio de emails diretamente do frontend.  
-- ![ScrollReveal](https://img.shields.io/badge/-ScrollReveal-4B5563?style=flat&logoColor=white) Efeitos de scroll animados para uma experiência dinâmica.  
-- ![I18n](https://img.shields.io/badge/-I18n-00758F?style=flat&logoColor=white) Internacionalização para suporte a múltiplos idiomas.  
-- ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat&logo=vite&logoColor=white) Ferramenta para desenvolvimento frontend rápido e eficiente.
+### Mobile + tema escuro:
+
+<div align="start">
+  <img width="250" alt="image" src="https://github.com/user-attachments/assets/ccb93f1f-3b2b-4e0d-8855-3514f03c5b63" />
+  <img width="250" alt="image" src="https://github.com/user-attachments/assets/e2a3e0a3-b3a6-4034-bd6d-d90f80a27a91" />
+  <img width="250"  alt="image" src="https://github.com/user-attachments/assets/698e9ddb-85ff-4962-9ead-987f160c5ea2" />
+  <img width="250" alt="image" src="https://github.com/user-attachments/assets/5f132679-8f10-41d1-9995-dd098910572a" />
+  <img width="250" alt="image" src="https://github.com/user-attachments/assets/7cef2f28-e6c1-4fa0-85bf-3fa7f82d5f5f" />
+</div>
+
+---
+
+## Principais melhorias da v2
+- Novo design com identidade visual refinada
+- Melhor organização dos componentes
+- Animações com Framer Motion
+- Melhora na acessibilidade
+
+---
+
+## Tecnologias 
+
+- **JavaScript** – Responsável pela lógica da aplicação e interatividade da interface.
+- **React** – Construção da interface baseada em componentes reutilizáveis e organização eficiente do estado.
+- **Tailwind CSS** – Estilização responsiva com foco em produtividade e consistência visual.
+- **Framer Motion** – Implementação de animações fluidas para melhorar a experiência do usuário.
+- **I18N** – Internacionalização da aplicação, permitindo suporte a inglês e português.
+- **React Toastify** – Feedback visual para envio de mensagem do usuário.
+- **EmailJS** – Integração do formulário de contato com envio de e-mails direto pelo frontend.
+- **Vite** – Ferramenta de build rápida e otimizada para desenvolvimento moderno com React.
+
+---
+
+## Estrutura do projeto
+
+```
+src/
+├── assets/
+├── components/
+├── constants/
+├── i18n/
+├── lib/
+└── App.jsx
+```
+
+---
 
 
-## 🌐 Contato
+## Como rodar localmente
 
-- 📧  **Email:** [francine.c.oliveiracruz@gmail.com](mailto:francine.c.oliveiracruz@gmail.com)
-- 💻 **LinkedIn:** [Francine Cruz](https://www.linkedin.com/in/francine-ccruz/)
-- 📱 **Telefone:** +55 51 98628-3397
+1. Clone o repositório
 
-🤝 Sinta-se à vontade para entrar em contato para colaborações, oportunidades de trabalho ou apenas para bater um papo sobre tecnologia!
+```
+git clone https://github.com/Francine02/Portfolio-2.git
+cd Portfolio-2
+```
+
+2. Instale as dependências
+   
+```
+npm install
+```
+
+3. Rode o projeto
+
+```
+npm run dev
+```
+
+---
+
+## Contribuição:
+Feedbacks são sempre bem-vindas. Sinta-se à vontade para abrir issues ou entrar em contato caso queira propor ajustes, otimizações ou indicar algum problema.
+
+---
+
+## Contato
+
+- **Email:** [francine.c.oliveiracruz@gmail.com](mailto:francine.c.oliveiracruz@gmail.com)
+- **LinkedIn:** [Francine Cruz](https://www.linkedin.com/in/francine-ccruz/)
+
+#### Sinta-se à vontade para entrar em contato para colaborações, oportunidades de trabalho ou apenas para bater um papo sobre tecnologia!
+
+---
+
+## Licença
+Este projeto está licenciado sob a Copyright. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
 🩷 Obrigado por visitar meu portfólio! 🩷
-
