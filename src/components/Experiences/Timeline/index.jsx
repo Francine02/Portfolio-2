@@ -1,15 +1,40 @@
 import { EXPERIENCES } from '@constants/experiences';
+import { motion } from 'framer-motion';
 
 import { About } from './About';
 import { Time } from './Time';
 
 export function Timeline({ viewMode }) {
   return (
-    <ol className="relative space-y-6 md:space-y-10 before:absolute before:top-0 before:left-1/2 before:h-full before:w-0.5 before:-translate-x-1/2 before:rounded-full before:bg-gray-300 dark:before:bg-neutral-600 mt-6">
-      {EXPERIENCES.map((experience) => (
-        <li
+    <motion.ol
+      className="relative space-y-6 md:space-y-10 mt-6"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.2 }}
+    >
+      <motion.span
+        className="absolute left-1/2 top-0 w-0.5 -translate-x-1/2 rounded-full bg-gray-300 dark:bg-neutral-600"
+        initial={{ height: 0 }}
+        whileInView={{ height: '100%' }}
+        transition={{ duration: 3, ease: 'easeOut' }}
+      />
+
+      {EXPERIENCES.map((experience, index) => (
+        <motion.li
           key={experience.title}
           className="group relative grid grid-cols-2 odd:-me-3 even:-ms-3"
+          initial={{
+            opacity: 0,
+            x: index % 2 === 0 ? -60 : 60,
+          }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ amount: 0.1 }}
+          transition={{
+            duration: 0.6,
+            delay: index * 0.15,
+            type: 'spring',
+            stiffness: 80,
+          }}
         >
           <Time experience={experience} />
 
@@ -18,8 +43,8 @@ export function Timeline({ viewMode }) {
 
             <About viewMode={viewMode} experience={experience} />
           </div>
-        </li>
+        </motion.li>
       ))}
-    </ol>
+    </motion.ol>
   );
 }
