@@ -1,4 +1,5 @@
 import emailjs from '@emailjs/browser';
+import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { toast } from 'react-toastify';
@@ -37,14 +38,22 @@ export function Form() {
   };
 
   return (
-    <form
+    <motion.form
       onSubmit={handleSubmit(onSubmit)}
       className="bg-gray-100 dark:bg-neutral-800 rounded-xl p-8 w-full md:max-w-lg space-y-4 shadow-md"
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ amount: 0.1 }}
+      transition={{ duration: 0.6, type: 'spring', stiffness: 120 }}
+      aria-labelledby="contact-title"
     >
-      <FormField error={errors.name?.message}>
+      <FormField id="name" error={errors.name?.message}>
         <input
           placeholder={t('contato.form.nome')}
           className="input"
+          id="name"
+          aria-invalid={!!errors.name}
+          aria-describedby={errors.name ? 'name-error' : undefined}
           {...register('name', {
             setValueAs: (v) => v.trim(),
             required: t('contato.erros.obrigatorio'),
@@ -64,10 +73,13 @@ export function Form() {
         />
       </FormField>
 
-      <FormField error={errors.email?.message}>
+      <FormField id="email" error={errors.email?.message}>
         <input
           placeholder="Email"
           className="input"
+          id="email"
+          aria-invalid={!!errors.email}
+          aria-describedby={errors.email ? 'email-error' : undefined}
           {...register('email', {
             setValueAs: (v) => v.trim(),
             required: t('contato.erros.obrigatorio'),
@@ -79,10 +91,13 @@ export function Form() {
         />
       </FormField>
 
-      <FormField error={errors.message?.message}>
+      <FormField id="message" error={errors.message?.message}>
         <textarea
           placeholder={t('contato.form.messagem')}
           className="input min-h-20 max-h-64"
+          id="message"
+          aria-invalid={!!errors.message}
+          aria-describedby={errors.message ? 'message-error' : undefined}
           {...register('message', {
             setValueAs: (v) => v.trim(),
             required: t('contato.erros.obrigatorio'),
@@ -103,18 +118,25 @@ export function Form() {
       </p>
 
       <div className="flex justify-end">
-        <button
+        <motion.button
           type="submit"
           disabled={isSubmitting}
           className="button-base w-20 h-8 px-4 py-1 mt-4 disabled:opacity-50"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: 'spring', stiffness: 250 }}
+          aria-busy={isSubmitting}
         >
           {isSubmitting ? (
-            <div className="w-5 h-5 mx-auto border-2 border-white border-t-pink rounded-full animate-spin" />
+            <>
+              <span className="sr-only">loading</span>
+              <div className="w-5 h-5 mx-auto border-2 border-white border-t-pink rounded-full animate-spin" />
+            </>
           ) : (
             t('contato.enviar')
           )}
-        </button>
+        </motion.button>
       </div>
-    </form>
+    </motion.form>
   );
 }
