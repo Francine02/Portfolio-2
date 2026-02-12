@@ -33,11 +33,11 @@ A versão inicial permanece disponível para fins de comparação:
 ### Desktop:
 
 <div align="start">
-  <img width="500" alt="image" src="https://github.com/user-attachments/assets/74591e36-ba2d-4da2-82fb-ed34b6b6bad6" />
-  <img width="500" alt="image" src="https://github.com/user-attachments/assets/0806e011-f3af-45c3-837d-5eb2abfdb203" />
-  <img width="500" alt="image" src="https://github.com/user-attachments/assets/c77d10b2-1f9a-4f3c-993d-b579e302a6be" />
-  <img width="500" alt="image" src="https://github.com/user-attachments/assets/e08d9b0c-b50f-4495-894f-09364758595d" />
-  <img width="500" alt="image" src="https://github.com/user-attachments/assets/01bc6ad0-28be-450d-83ba-e42de3bc0158" />
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/74591e36-ba2d-4da2-82fb-ed34b6b6bad6" />
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/0806e011-f3af-45c3-837d-5eb2abfdb203" />
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/c77d10b2-1f9a-4f3c-993d-b579e302a6be" />
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/e08d9b0c-b50f-4495-894f-09364758595d" />
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/01bc6ad0-28be-450d-83ba-e42de3bc0158" />
 </div>
 
 ### Mobile + tema escuro:
@@ -131,3 +131,4 @@ Este projeto está licenciado sob a Copyright. Consulte o arquivo [LICENSE](LICE
 ---
 
 🩷 Obrigado por visitar meu portfólio! 🩷
+
