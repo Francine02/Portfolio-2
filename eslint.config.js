@@ -47,6 +47,7 @@ export default [
             ['@i18n', './src/i18n'],
             ['@projects', './src/projects'],
             ['@lib', './src/lib'],
+            ['@animations', './src/animations'],
           ],
           extensions: ['.js', '.jsx'],
         },

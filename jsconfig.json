@@ -8,7 +8,8 @@
       "@constants/*": ["constants/*"],
       "@assets/*": ["assets/*"],
       "@i18n/*": ["i18n/*"],
-      "@lib/*": ["lib/*"]
+      "@lib/*": ["lib/*"],
+      "@animations/*": ["animations/*"]
     }
   },
   "include": ["src"]
