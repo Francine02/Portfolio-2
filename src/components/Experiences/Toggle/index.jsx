@@ -19,7 +19,7 @@ export function Toggle({ setViewMode, viewMode }) {
         />
         <label
           htmlFor="switch-component-on"
-          className="absolute top-0.5 left-0 w-4 h-4 bg-white rounded-full border border-slate-300 shadow-sm transition-transform duration-300 peer-checked:translate-x-6 peer-checked:border-slate-800 cursor-pointer"
+          className="absolute top-0.5 left-0 size-3.5 sm:size-4 bg-white rounded-full border border-slate-300 shadow-sm transition-transform duration-300 peer-checked:translate-x-6 peer-checked:border-slate-800 cursor-pointer"
         ></label>
       </div>
       <Label text={t('experiencias.visualizar.detalhes')} />

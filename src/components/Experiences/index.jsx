@@ -1,4 +1,5 @@
 import { TitleWithFlowers } from '@components/TitleSection/TitleWithFlowers';
+import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -11,10 +12,17 @@ export function Experiences() {
   const [viewMode, setViewMode] = useState(false);
 
   return (
-    <section className="section-gray" id="experiencias">
+    <motion.section
+      id="experiencias"
+      className="section-gray"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.1 }}
+    >
       <div className="container">
         <div className="flex flex-col items-start space-y-5 sm:space-y-0 sm:flex-row sm:justify-around sm:items-center">
           <TitleWithFlowers
+            id="contact-title"
             className="dark:text-white"
             title={t('header.experiencias')}
           />
@@ -25,6 +33,6 @@ export function Experiences() {
           <Timeline viewMode={viewMode} />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
