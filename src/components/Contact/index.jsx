@@ -1,4 +1,5 @@
 import { TitleWithFlowers } from '@components/TitleSection/TitleWithFlowers';
+import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 import { Content } from './Content/index';
@@ -7,17 +8,28 @@ export function Contact() {
   const { t } = useTranslation();
 
   return (
-    <section className="container pt-24" id="contato">
-      <div className="flex justify-around items-center">
-        <TitleWithFlowers
-          className="dark:text-white"
-          title={t('header.contato')}
-        />
-      </div>
+    <motion.section
+      className="container pt-24"
+      id="contato"
+      initial={{ opacity: 0, y: 60 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ amount: 0.1 }}
+      transition={{ duration: 0.8, ease: 'easeOut' }}
+    >
+      <TitleWithFlowers
+        className="dark:text-white"
+        title={t('header.contato')}
+      />
 
-      <div className="padding">
+      <motion.div
+        className="padding"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ amount: 0.1 }}
+        transition={{ duration: 0.7, delay: 0.2 }}
+      >
         <Content />
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   );
 }
