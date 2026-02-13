@@ -12,9 +12,7 @@
 ## Sobre o projeto
 
 Este é o redesign do meu portfólio pessoal.  
-A proposta desta versão é apresentar meus projetos e experiências com uma identidade visual mais madura e animações modernas.
-
-Além de servir como vitrine profissional, este projeto também representa minha evolução técnica e de organização de código.
+A proposta desta versão é apresentar meus projetos e experiências com uma identidade visual que mais combina comigo e animações modernas.
 
 ---
 
@@ -56,7 +54,6 @@ A versão inicial permanece disponível para fins de comparação:
 - Novo design com identidade visual refinada
 - Melhor organização dos componentes
 - Animações com Framer Motion
-- Melhora na acessibilidade
 
 ---
 
@@ -131,4 +128,5 @@ Este projeto está licenciado sob a Copyright. Consulte o arquivo [LICENSE](LICE
 ---
 
 🩷 Obrigado por visitar meu portfólio! 🩷
+
 
