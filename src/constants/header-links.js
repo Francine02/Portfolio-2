@@ -8,8 +8,8 @@ export const HEADER_LINKS = (language) => [
     text: 'CV',
     link:
       language === 'pt'
-        ? '/CV - Francine Cruz-pt.pdf'
-        : '/CV - Francine Cruz-en.pdf',
+        ? 'https://drive.google.com/file/d/17LYd4mqcplzEJboUBfEsu8p_3bDhkRQE/view?usp=sharing'
+        : 'https://drive.google.com/file/d/1-aFHhkLRazmB0PRQQzv6rGc_-TeS-8F3/view?usp=sharing',
     target: '_blank',
     rel: 'noopener noreferrer',
   },
