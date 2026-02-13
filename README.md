@@ -61,6 +61,7 @@ A versão inicial permanece disponível para fins de comparação:
 
 - **JavaScript** – Responsável pela lógica da aplicação e interatividade da interface.
 - **React** – Construção da interface baseada em componentes reutilizáveis e organização eficiente do estado.
+- **React Hook Form** – Para a validação, manipulação e gerenciamento dos campos do meu formulário
 - **Tailwind CSS** – Estilização responsiva com foco em produtividade e consistência visual.
 - **Framer Motion** – Implementação de animações fluidas para melhorar a experiência do usuário.
 - **I18N** – Internacionalização da aplicação, permitindo suporte a inglês e português.
@@ -128,5 +129,6 @@ Este projeto está licenciado sob a Copyright. Consulte o arquivo [LICENSE](LICE
 ---
 
 🩷 Obrigado por visitar meu portfólio! 🩷
+
 
 
