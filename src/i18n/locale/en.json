@@ -13,7 +13,7 @@
   "sobre": {
     "titulo": "About",
     "resumo": "I'm Francine, a <strong>Software Engineering student</strong> and a <strong>Full Stack developer</strong> in training. I have hands-on experience with <strong>personal projects</strong>, <strong>volunteer projects</strong>, and <strong>freelance projects</strong> — creating <strong>responsive interfaces</strong>, developing and integrating <strong>APIs</strong>, and implementing systems such as <strong>Stripe</strong>.",
-    "resumo1": "I have worked in <strong>agile teams</strong> focused on <strong>accessibility</strong>, <strong>dynamic forms</strong>, and <strong>real-impact solutions</strong>. I’m seeking my <strong>first opportunity as a developer</strong> to keep <strong>growing</strong>, <strong>delivering value</strong>, and <strong>learning from new challenges</strong>.",
+    "resumo1": "I have worked in <strong>agile teams</strong> focused on <strong>accessibility</strong>, <strong>dynamic forms</strong>, and <strong>real-impact solutions</strong>. I seek to continue <strong>growing as a developer</strong>, combining my enthusiasm for continuous learning with challenges in both front-end and back-end development.",
     "ferramentas": "Tools"
   },
   "projetos": {
@@ -38,6 +38,13 @@
     "visualizar": {
       "detalhes": "Details",
       "resumo": "Summary"
+    },
+    "devjr": {
+      "title": "Junior Web Developer",
+      "data": "Mar/2026 – Present",
+      "modalidade": " Remoto",
+      "empresa": "8poroito",
+      "descricao": "Development and maintenance of web applications using PHP and Laravel (MVC), making improvements to existing systems, working with HTML/CSS, legacy systems (FTP), and organizing Git repositories, version control, and deployment processes."
     },
     "freelancer": {
       "title": "Front-end Developer",
