@@ -1,4 +1,4 @@
-import { FaJava } from 'react-icons/fa';
+import { FaJava, FaPhp } from 'react-icons/fa';
 import {
   SiBootstrap,
   SiCss3,
@@ -9,6 +9,7 @@ import {
   SiHtml5,
   SiInsomnia,
   SiJavascript,
+  SiLaravel,
   SiMysql,
   SiNextdotjs,
   SiPostgresql,
@@ -36,6 +37,8 @@ export const TECHNOLOGIES_LIST = [
   {
     category: 'Back-end',
     technologies: [
+      { name: 'PHP', icon: FaPhp, color: '#474A8A' },
+      { name: 'Laaravel', icon: SiLaravel, color: '#F05340' },
       { name: 'Java', icon: FaJava, color: '#007396' },
       { name: 'Spring Boot', icon: SiSpringboot, color: '#6DB33F' },
       { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
