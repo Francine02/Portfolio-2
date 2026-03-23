@@ -13,7 +13,7 @@
   "sobre": {
     "titulo": "Sobre",
     "resumo": "Sou Francine, estudante de <strong>Engenharia de Software</strong> e <strong>desenvolvedora Full Stack</strong> em formação. Tenho experiência prática em <strong>projetos pessoais</strong>, <strong>voluntários</strong> e <strong>freelas</strong>, criando <strong>interfaces responsivas</strong>, desenvolvendo e integrando <strong>APIs</strong>, e implementando sistemas como a <strong>Stripe</strong>.",
-    "resumo1": "Já atuei em <strong>times ágeis</strong> com foco em <strong>acessibilidade</strong>, <strong>formulários dinâmicos</strong> e <strong>soluções com impacto real</strong>. Busco minha <strong>primeira oportunidade como desenvolvedora</strong> para continuar <strong>evoluindo</strong>, <strong>entregando valor</strong> e <strong>aprendendo com novos desafios</strong>.",
+    "resumo1": "Já atuei em <strong>times ágeis</strong> com foco em <strong>acessibilidade</strong>, <strong>formulários dinâmicos</strong> e <strong>soluções com impacto real</strong>. Busco continuar <strong>crescendo como desenvolvedora</strong>, unindo meu entusiasmo por aprendizado contínuo a desafios no front-end e back-end.",
     "ferramentas": "Ferramentas"
   },
   "projetos": {
@@ -38,6 +38,13 @@
     "visualizar": {
       "detalhes": "Detalhes",
       "resumo": "Resumido"
+    },
+    "devjr": {
+      "title": "Desenvolvedora Web Jr.",
+      "data": "Mar/2026 – Atualmente",
+      "modalidade": " Remoto",
+      "empresa": "8poroito",
+      "descricao": "Desenvolvimento e manutenção de aplicações web com PHP e Laravel (MVC), realizando melhorias em sistemas existentes, trabalhando com HTML/CSS, sistemas legados (FTP) e organizando repositórios Git, versionamento e processos de deploy."
     },
     "freelancer": {
       "title": "Desenvolvedora Front-end",
