@@ -1,13 +1,12 @@
-<h1 align="center"> 
+<div align="center"> 
   <img width="41" height="27" alt="logo" src="https://github.com/user-attachments/assets/7b991e1d-c4ab-4dea-8e05-41d501be61b9" />
-  <br>
-  Portfólio pessoal - Francine Cruz (v2)
+  <h1>Portfólio pessoal - Francine Cruz (v2)</h1>
   <p >
     <img src="https://img.shields.io/github/last-commit/Francine02/Portfolio-2?style=flat&logo=git&logoColor=white&color=4F46E5" alt="Last Commit">
     <img src="https://img.shields.io/github/languages/top/Francine02/Portfolio-2?style=flat&color=DB2777" alt="Top Language">
     <img src="https://img.shields.io/github/languages/count/Francine02/Portfolio-2?style=flat&color=9333EA" alt="Languages Count">
   </p>
-</h1>
+</div>
 
 ## Sobre o projeto
 
