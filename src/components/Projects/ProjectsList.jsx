@@ -8,9 +8,9 @@ import { Card } from './Card/index';
 
 export function ProjectsList({ selected }) {
   const allProjects = [
-    ...PROJECTS_BACK,
-    ...PROJECTS_FRONT,
     ...PROJECTS_FULLSTACK,
+    ...PROJECTS_FRONT,
+    ...PROJECTS_BACK,
   ];
 
   const pagNav = [
