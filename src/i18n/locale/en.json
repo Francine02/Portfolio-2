@@ -12,8 +12,8 @@
   },
   "sobre": {
     "titulo": "About",
-    "resumo": "I'm Francine, a <strong>Software Engineering student</strong> and a <strong>Full Stack developer</strong> in training. I have hands-on experience with <strong>personal projects</strong>, <strong>volunteer projects</strong>, and <strong>freelance projects</strong> — creating <strong>responsive interfaces</strong>, developing and integrating <strong>APIs</strong>, and implementing systems such as <strong>Stripe</strong>.",
-    "resumo1": "I have worked in <strong>agile teams</strong> focused on <strong>accessibility</strong>, <strong>dynamic forms</strong>, and <strong>real-impact solutions</strong>. I seek to continue <strong>growing as a developer</strong>, combining my enthusiasm for continuous learning with challenges in both front-end and back-end development.",
+    "resumo": "I'm Francine, a <strong>Software Engineering student</strong> and <strong>Junior Web Developer</strong>. Currently, I work at <strong>8poroito</strong>, contributing to the development and maintenance of web applications, implementing improvements, supporting legacy systems, and helping organize version control and deployment processes.",
+    "resumo1": "I also have hands-on experience through <strong>personal, volunteer, and freelance projects</strong>, working with <strong>responsive interfaces</strong>, <strong>APIs</strong>, <strong>dynamic forms</strong>, payment integrations, and agile teams. I seek to continue <strong>growing as a developer</strong>, combining continuous learning with challenges across both front-end and back-end development.",
     "ferramentas": "Tools"
   },
   "projetos": {
@@ -25,6 +25,9 @@
     },
     "sobre": {
       "receitoteca": "API for managing recipes, allowing creation, editing, deletion, and PDF generation.",
+      "bancoDeHoras": "Time-off management system for vacations, time balances, and overtime, featuring role-based access and automated request and approval workflows. Includes Google Calendar integration and email notifications.",
+      "sitemark": "Link organizer for streaming content, featuring authentication, link management, image uploads, profile editing, and drag-and-drop reordering.",
+      "githubStats": "Custom GitHub README statistics card with dynamically generated data from the GitHub API and automated updates using GitHub Actions.",
       "kando": "Collaborative board management API for creating boards, managing cards, and sharing via links.",
       "conver": "Web application for fast file conversion across multiple formats with a responsive interface.",
       "quicklist": "Simple application for managing a weekly shopping list with item creation, completion, and removal.",
@@ -44,7 +47,7 @@
       "data": "Mar/2026 – Present",
       "modalidade": " Remoto",
       "empresa": "8poroito",
-      "descricao": "Development and maintenance of web applications using PHP and Laravel (MVC), making improvements to existing systems, working with HTML/CSS, legacy systems (FTP), and organizing Git repositories, version control, and deployment processes."
+      "descricao": "Development and maintenance of web applications, contributing to the evolution of existing systems, implementation of improvements, support for legacy systems, and organization of version control and deployment processes."
     },
     "freelancer": {
       "title": "Front-end Developer",

@@ -12,8 +12,8 @@
   },
   "sobre": {
     "titulo": "Sobre",
-    "resumo": "Sou Francine, estudante de <strong>Engenharia de Software</strong> e <strong>desenvolvedora Full Stack</strong> em formação. Tenho experiência prática em <strong>projetos pessoais</strong>, <strong>voluntários</strong> e <strong>freelas</strong>, criando <strong>interfaces responsivas</strong>, desenvolvendo e integrando <strong>APIs</strong>, e implementando sistemas como a <strong>Stripe</strong>.",
-    "resumo1": "Já atuei em <strong>times ágeis</strong> com foco em <strong>acessibilidade</strong>, <strong>formulários dinâmicos</strong> e <strong>soluções com impacto real</strong>. Busco continuar <strong>crescendo como desenvolvedora</strong>, unindo meu entusiasmo por aprendizado contínuo a desafios no front-end e back-end.",
+    "resumo": "Sou Francine, estudante de <strong>Engenharia de Software</strong> e <strong>Desenvolvedora Web Jr.</strong> Atualmente, atuo na <strong>8poroito</strong>, contribuindo para o desenvolvimento e manutenção de aplicações web, implementação de melhorias, suporte a sistemas legados e organização de processos de versionamento e deploy.",
+    "resumo1": "Também tenho experiência prática em <strong>projetos pessoais, voluntários e freelas</strong>, atuando com <strong>interfaces responsivas</strong>, <strong>APIs</strong>, <strong>formulários dinâmicos</strong>, integrações de pagamentos e equipes ágeis. Busco continuar <strong>crescendo como desenvolvedora</strong>, unindo aprendizado contínuo a desafios no desenvolvimento front-end e back-end.",
     "ferramentas": "Ferramentas"
   },
   "projetos": {
@@ -25,6 +25,9 @@
     },
     "sobre": {
       "receitoteca": "API para gerenciamento de receitas, com cadastro, edição, exclusão e geração de PDFs.",
+      "bancoDeHoras": "Sistema de gestão de férias, banco de horas e horas extras, com diferentes níveis de acesso e fluxos automatizados de solicitação e aprovação. Possui integração com Google Agenda e notificações por e-mail.",
+      "githubStats": "Card personalizado de estatísticas para README do GitHub, com dados gerados dinamicamente a partir da API do GitHub e atualização automática por meio de GitHub Actions.",
+      "sitemark": "Organizador de links para conteúdos de streaming, com autenticação, gerenciamento de links, upload de imagens, edição de perfil e reordenação por drag and drop.",
       "kando": "API de quadros colaborativos para criação de boards, cartões e compartilhamento via links.",
       "conver": "Aplicação web para conversão rápida de arquivos em diversos formatos, com interface responsiva.",
       "quicklist": "Aplicação simples para gerenciamento de lista de compras semanal, com adição, conclusão e remoção de itens.",
@@ -44,7 +47,7 @@
       "data": "Mar/2026 – Atualmente",
       "modalidade": " Remoto",
       "empresa": "8poroito",
-      "descricao": "Desenvolvimento e manutenção de aplicações web com PHP e Laravel (MVC), realizando melhorias em sistemas existentes, trabalhando com HTML/CSS, sistemas legados (FTP) e organizando repositórios Git, versionamento e processos de deploy."
+      "descricao": "Desenvolvimento e manutenção de aplicações web, atuando na evolução de sistemas existentes, implementação de melhorias, suporte a sistemas legados e organização de processos de versionamento e deploy."
     },
     "freelancer": {
       "title": "Desenvolvedora Front-end",
