@@ -2,7 +2,7 @@ export const EXPERIENCES = [
   {
     title: 'devjr',
     stacks:
-      'React, JavaScript, TypeScript, HTML, CSS, Tailwind, PHP, PhpMyAdmin, Laravel, MVC, FTP',
+      'React, JavaScript, TypeScript, HTML, CSS, Tailwind, PHP, Laravel, Prisma, Inertia.js, Docker, Git, SSH, MySQL, MVC, FTP',
   },
   {
     title: 'freelancer',
