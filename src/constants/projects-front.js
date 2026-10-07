@@ -1,10 +1,14 @@
 import {
   SiAxios,
   SiCss3,
+  SiFigma,
+  SiGithub,
+  SiGithubactions,
   SiHtml5,
   SiJavascript,
   SiNextdotjs,
   SiReact,
+  SiSvg,
   SiTailwindcss,
   SiTypescript,
   SiVite,
@@ -12,8 +16,24 @@ import {
 
 import converImg from '/imgs/conver.png';
 import lectifyImg from '/imgs/lectify.png';
-import lectify1Img from '/imgs/lectify1.png';
+// import lectify1Img from '/imgs/lectify1.png';
 import quicklistImg from '/imgs/quicklist.png';
+import githubStatsImg from '/imgs/stats.png';
+
+const githubStats = {
+  name: 'GitHub Stats Card',
+  img: githubStatsImg,
+  repository: 'https://github.com/Octal-web',
+  about: 'githubStats',
+  demo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7466952545874399232',
+  techs: [
+    { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
+    { name: 'SVG', icon: SiSvg, color: '#FFB13B' },
+    { name: 'GitHub Actions', icon: SiGithubactions, color: '#2088FF' },
+    { name: 'GitHub API', icon: SiGithub, color: '#181717' },
+    { name: 'Figma', icon: SiFigma, color: '#F24E1E' },
+  ],
+};
 
 const conver = {
   name: 'Conver',
@@ -43,20 +63,20 @@ const quicklist = {
   ],
 };
 
-const lectify1 = {
-  name: 'Lectify - V.1',
-  img: lectify1Img,
-  repository: 'https://github.com/Francine02/Lectify/tree/v1',
-  about: 'lectify',
-  demo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7312509759415377921?collapsed=1',
-  techs: [
-    { name: 'React', icon: SiReact, color: '#61DAFB' },
-    { name: 'Next', icon: SiNextdotjs, color: '#606060' },
-    { name: 'TailwindCSS', icon: SiTailwindcss, color: '#00B9FF' },
-    { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
-    { name: 'Axios', icon: SiAxios, color: '#00B9FF' },
-  ],
-};
+// const lectify1 = {
+//   name: 'Lectify - V.1',
+//   img: lectify1Img,
+//   repository: 'https://github.com/Francine02/Lectify/tree/v1',
+//   about: 'lectify',
+//   demo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7312509759415377921?collapsed=1',
+//   techs: [
+//     { name: 'React', icon: SiReact, color: '#61DAFB' },
+//     { name: 'Next', icon: SiNextdotjs, color: '#606060' },
+//     { name: 'TailwindCSS', icon: SiTailwindcss, color: '#00B9FF' },
+//     { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
+//     { name: 'Axios', icon: SiAxios, color: '#00B9FF' },
+//   ],
+// };
 
 const lectify = {
   name: 'Lectify - V.2',
@@ -73,4 +93,4 @@ const lectify = {
   ],
 };
 
-export const PROJECTS_FRONT = [conver, quicklist, lectify1, lectify];
+export const PROJECTS_FRONT = [githubStats, conver, quicklist, lectify];
